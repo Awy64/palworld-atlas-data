@@ -22,6 +22,20 @@ public sealed class MapCoordinatesTests
     }
 
     [Fact]
+    public void ConvertsKnownChilletAlphaCoordinate()
+    {
+        var result = MapCoordinates.ToPalpagos(-315583.53125, 237116.96875);
+        Assert.Equal(172, Math.Round(result.X));
+        Assert.Equal(-418, Math.Round(result.Y));
+    }
+
+    [Fact]
+    public void PalpagosExtentMatchesBundledWorldMap()
+    {
+        Assert.Equal([-1000d, -1000d, 1000d, 1000d], MapCoordinates.PalpagosExtent);
+    }
+
+    [Fact]
     public void DetectsWorldTreeCoordinatesFromServerMapBounds()
     {
         Assert.True(MapCoordinates.IsWithinWorldExtent(

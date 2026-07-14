@@ -116,7 +116,8 @@ internal sealed record MapDefinition(MapRegion Region, double MinX, double MinY,
 
 public static class MapCoordinates
 {
-    public static readonly double[] PalpagosExtent = [-1954.07407407, -1908.61002179, 1200.26143791, 1245.7254902];
+    // T_WorldMap covers the in-game coordinate grid from -1000 to 1000 on both axes.
+    public static readonly double[] PalpagosExtent = [-1000d, -1000d, 1000d, 1000d];
 
     public static (double X, double Y) ToPalpagos(double worldX, double worldY) =>
         ((worldY - 158000d) / 459d, (worldX + 123888d) / 459d);
