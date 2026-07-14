@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["region", "coordinateSystem", "extent", "spawns"],
+  "properties": {
+    "region": { "enum": ["palpagos", "tree"] },
+    "coordinateSystem": { "const": "pal-map" },
+    "extent": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "number" } },
+    "spawns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "palId", "region", "kind", "worldX", "worldY", "mapX", "mapY", "availability", "minLevel", "maxLevel", "weight"],
+        "properties": {
+          "id": { "type": "string" },
+          "palId": { "type": "string" },
+          "palName": { "type": ["string", "null"] },
+          "region": { "enum": ["palpagos", "tree"] },
+          "kind": { "enum": ["wild", "alpha"] },
+          "worldX": { "type": "number" },
+          "worldY": { "type": "number" },
+          "mapX": { "type": "number" },
+          "mapY": { "type": "number" },
+          "availability": { "enum": ["day", "night", "both"] },
+          "minLevel": { "type": "integer", "minimum": 0 },
+          "maxLevel": { "type": "integer", "minimum": 0 },
+          "weight": { "type": "number", "minimum": 0 }
+        }
+      }
+    }
+  }
+}
+

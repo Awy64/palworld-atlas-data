@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://awy64.github.io/palworld-atlas-data/schemas/latest.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "steamBuildId", "generatedAt", "buildPath"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "steamBuildId": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "gameVersion": { "type": ["string", "null"] },
+    "buildPath": { "type": "string", "pattern": "^builds/[0-9]+$" }
+  }
+}
+

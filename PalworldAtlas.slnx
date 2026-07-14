@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/PalworldAtlas.Extractor/PalworldAtlas.Extractor.csproj" />
+  <Project Path="tests/PalworldAtlas.Extractor.Tests/PalworldAtlas.Extractor.Tests.csproj" />
+</Solution>
+

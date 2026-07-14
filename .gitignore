@@ -1,0 +1,11 @@
+bin/
+obj/
+.idea/
+.vscode/
+artifacts/
+server/
+*.pak
+*.usmap
+*.dll
+probe-report.json
+

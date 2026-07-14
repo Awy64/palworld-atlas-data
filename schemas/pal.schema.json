@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "tribe", "name", "paldexNumber", "rarity", "elements", "hp", "attack", "defense", "runSpeed", "stamina", "food", "breedingRank", "nocturnal", "workSuitability"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "tribe": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "paldexNumber": { "type": "integer", "minimum": 0 },
+    "rarity": { "type": "integer", "minimum": 0 },
+    "elements": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "hp": { "type": "integer" },
+    "attack": { "type": "integer" },
+    "defense": { "type": "integer" },
+    "runSpeed": { "type": "integer" },
+    "stamina": { "type": "integer" },
+    "food": { "type": "integer" },
+    "breedingRank": { "type": "integer", "minimum": 1 },
+    "nocturnal": { "type": "boolean" },
+    "workSuitability": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+  }
+}
+

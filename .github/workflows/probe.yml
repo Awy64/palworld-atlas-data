@@ -1,0 +1,73 @@
+name: Probe Palworld server package
+
+on:
+  workflow_dispatch:
+    inputs:
+      mappings_url:
+        description: Optional build-compatible Mappings.usmap URL
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Test extractor
+        run: dotnet test PalworldAtlas.slnx --configuration Release
+      - name: Install SteamCMD
+        run: scripts/install-steamcmd.sh "$RUNNER_TEMP/steamcmd"
+      - name: Find current build
+        id: build
+        run: |
+          build_id="$(scripts/query-build-id.sh "$RUNNER_TEMP/steamcmd/steamcmd.sh")"
+          test -n "$build_id"
+          echo "id=$build_id" >> "$GITHUB_OUTPUT"
+      - name: Download Linux dedicated server
+        run: scripts/download-server.sh "$RUNNER_TEMP/steamcmd/steamcmd.sh" "$RUNNER_TEMP/palworld-server"
+      - name: Resolve mappings
+        id: mappings
+        env:
+          INPUT_URL: ${{ inputs.mappings_url }}
+          REPOSITORY_URL: ${{ vars.PALWORLD_MAPPINGS_URL }}
+        run: |
+          url="${INPUT_URL:-$REPOSITORY_URL}"
+          if [ -n "$url" ]; then
+            curl --fail --location --silent --show-error "$url" -o "$RUNNER_TEMP/Mappings.usmap"
+            echo "arg=--mappings $RUNNER_TEMP/Mappings.usmap" >> "$GITHUB_OUTPUT"
+          else
+            echo "arg=" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Inventory and parse required tables
+        id: probe
+        continue-on-error: true
+        run: |
+          /usr/bin/time -v -o runner-metrics.txt \
+            dotnet run --project src/PalworldAtlas.Extractor --configuration Release --no-build -- \
+            probe \
+            --pak-dir "$RUNNER_TEMP/palworld-server/Pal/Content/Paks" \
+            --output probe-report.json \
+            --build-id "${{ steps.build.outputs.id }}" \
+            ${{ steps.mappings.outputs.arg }}
+          du -sb "$RUNNER_TEMP/palworld-server" >> runner-metrics.txt
+          df -h "$RUNNER_TEMP" >> runner-metrics.txt
+      - name: Upload report only
+        uses: actions/upload-artifact@v4
+        with:
+          name: palworld-server-probe-${{ steps.build.outputs.id }}
+          path: |
+            probe-report.json
+            runner-metrics.txt
+          if-no-files-found: error
+          retention-days: 14
+      - name: Enforce production gate
+        if: steps.probe.outcome != 'success'
+        run: exit 1
+

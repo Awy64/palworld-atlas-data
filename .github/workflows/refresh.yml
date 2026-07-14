@@ -1,0 +1,127 @@
+name: Refresh Atlas data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild even when the Steam build ID is unchanged
+        required: false
+        default: false
+        type: boolean
+      mappings_url:
+        description: Optional build-compatible Mappings.usmap URL override
+        required: false
+        type: string
+
+concurrency:
+  group: atlas-data-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Test extractor
+        run: dotnet test PalworldAtlas.slnx --configuration Release
+      - name: Install SteamCMD
+        run: scripts/install-steamcmd.sh "$RUNNER_TEMP/steamcmd"
+      - name: Check Steam build
+        id: build
+        env:
+          FORCE: ${{ inputs.force || false }}
+        run: |
+          build_id="$(scripts/query-build-id.sh "$RUNNER_TEMP/steamcmd/steamcmd.sh")"
+          test -n "$build_id"
+          published_id="$(jq -r '.steamBuildId // empty' published/v1/latest.json 2>/dev/null || true)"
+          changed=true
+          if [ "$FORCE" != "true" ] && [ "$build_id" = "$published_id" ]; then changed=false; fi
+          echo "id=$build_id" >> "$GITHUB_OUTPUT"
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+      - name: Resolve mappings
+        if: steps.build.outputs.changed == 'true'
+        id: mappings
+        env:
+          INPUT_URL: ${{ inputs.mappings_url }}
+          REPOSITORY_URL: ${{ vars.PALWORLD_MAPPINGS_URL }}
+        run: |
+          url="${INPUT_URL:-$REPOSITORY_URL}"
+          if [ -z "$url" ]; then
+            echo "A build-compatible mappings URL is required before production publishing." >&2
+            exit 1
+          fi
+          curl --fail --location --silent --show-error "$url" -o "$RUNNER_TEMP/Mappings.usmap"
+      - name: Download Linux dedicated server
+        if: steps.build.outputs.changed == 'true'
+        run: scripts/download-server.sh "$RUNNER_TEMP/steamcmd/steamcmd.sh" "$RUNNER_TEMP/palworld-server"
+      - name: Extract and validate
+        if: steps.build.outputs.changed == 'true'
+        run: |
+          mkdir -p artifacts/site
+          cp -R published/. artifacts/site/
+          latest_path="$(jq -r '.buildPath // empty' published/v1/latest.json 2>/dev/null || true)"
+          previous_arg=""
+          if [ -n "$latest_path" ] && [ -f "published/v1/$latest_path/manifest.json" ]; then
+            previous_arg="--previous-manifest published/v1/$latest_path/manifest.json"
+          fi
+          dotnet run --project src/PalworldAtlas.Extractor --configuration Release --no-build -- \
+            publish \
+            --pak-dir "$RUNNER_TEMP/palworld-server/Pal/Content/Paks" \
+            --mappings "$RUNNER_TEMP/Mappings.usmap" \
+            --output artifacts/site \
+            --build-id "${{ steps.build.outputs.id }}" \
+            $previous_arg
+      - name: Commit validated data
+        if: steps.build.outputs.changed == 'true'
+        run: |
+          rsync -a --delete artifacts/site/ published/
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add published
+          git commit -m "data: publish Palworld build ${{ steps.build.outputs.id }}"
+          git push
+      - uses: actions/configure-pages@v5
+        if: steps.build.outputs.changed == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.build.outputs.changed == 'true'
+        with:
+          path: published
+      - name: Deploy GitHub Pages
+        if: steps.build.outputs.changed == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Close resolved extraction issue
+        if: success() && steps.build.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue="$(gh issue list --state open --search 'Automated extraction failed in:title' --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then gh issue close "$issue" --comment "Build ${{ steps.build.outputs.id }} passed validation and was published."; fi
+      - name: Report extraction failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_ID: ${{ steps.build.outputs.id }}
+        run: |
+          title="Automated extraction failed"
+          body="Palworld build ${BUILD_ID:-unknown} did not pass the extraction or contract gate. The previous published build remains active. Inspect this workflow run before updating mappings or parser adapters."
+          issue="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then gh issue comment "$issue" --body "$body"; else gh issue create --title "$title" --body "$body"; fi
+

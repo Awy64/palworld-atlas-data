@@ -1,0 +1,18 @@
+{
+  "pals": [
+    { "id": "SheepBall", "paldexNumber": 1 },
+    { "id": "GrassPanda_B", "paldexNumber": 33 }
+  ],
+  "items": [
+    { "id": "Wood", "category": "Material" }
+  ],
+  "uniquePairs": [
+    { "parentAId": "SheepBall", "parentBId": "GrassPanda_B", "childId": "GrassPanda_B" }
+  ],
+  "spawns": [
+    { "id": "wild-day", "kind": "wild", "availability": "day", "region": "palpagos" },
+    { "id": "wild-night", "kind": "wild", "availability": "night", "region": "palpagos" },
+    { "id": "alpha", "kind": "alpha", "availability": "both", "region": "palpagos" },
+    { "id": "tree", "kind": "wild", "availability": "both", "region": "tree" }
+  ]
+}
