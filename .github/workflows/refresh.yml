@@ -64,11 +64,13 @@ jobs:
           REPOSITORY_URL: ${{ vars.PALWORLD_MAPPINGS_URL }}
         run: |
           url="${INPUT_URL:-$REPOSITORY_URL}"
-          if [ -z "$url" ]; then
-            echo "A build-compatible mappings URL is required before production publishing." >&2
-            exit 1
+          if [ -n "$url" ]; then
+            curl --fail --location --silent --show-error "$url" -o "$RUNNER_TEMP/Mappings.usmap"
+            echo "provided=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "The current server build exposes the required table properties without an external mappings file."
+            echo "provided=false" >> "$GITHUB_OUTPUT"
           fi
-          curl --fail --location --silent --show-error "$url" -o "$RUNNER_TEMP/Mappings.usmap"
       - name: Download Linux dedicated server
         if: steps.build.outputs.changed == 'true'
         run: scripts/download-server.sh "$RUNNER_TEMP/steamcmd/steamcmd.sh" "$RUNNER_TEMP/palworld-server"
@@ -78,17 +80,21 @@ jobs:
           mkdir -p artifacts/site
           cp -R published/. artifacts/site/
           latest_path="$(jq -r '.buildPath // empty' published/v1/latest.json 2>/dev/null || true)"
-          previous_arg=""
+          previous_args=()
           if [ -n "$latest_path" ] && [ -f "published/v1/$latest_path/manifest.json" ]; then
-            previous_arg="--previous-manifest published/v1/$latest_path/manifest.json"
+            previous_args=(--previous-manifest "published/v1/$latest_path/manifest.json")
+          fi
+          mappings_args=()
+          if [ -f "$RUNNER_TEMP/Mappings.usmap" ]; then
+            mappings_args=(--mappings "$RUNNER_TEMP/Mappings.usmap")
           fi
           dotnet run --project src/PalworldAtlas.Extractor --configuration Release --no-build -- \
             publish \
             --pak-dir "$RUNNER_TEMP/palworld-server/Pal/Content/Paks" \
-            --mappings "$RUNNER_TEMP/Mappings.usmap" \
             --output artifacts/site \
             --build-id "${{ steps.build.outputs.id }}" \
-            $previous_arg
+            "${mappings_args[@]}" \
+            "${previous_args[@]}"
       - name: Commit validated data
         if: steps.build.outputs.changed == 'true'
         run: |
