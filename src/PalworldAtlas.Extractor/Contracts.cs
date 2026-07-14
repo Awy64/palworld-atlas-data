@@ -106,6 +106,9 @@ public sealed record ProbeReport(
 
 internal sealed record MapDefinition(MapRegion Region, double MinX, double MinY, double MaxX, double MaxY)
 {
+    public bool Contains(double worldX, double worldY) =>
+        MapCoordinates.IsWithinWorldExtent(worldX, worldY, MinX, MinY, MaxX, MaxY);
+
     public double[] Extent => Region == MapRegion.Palpagos
         ? MapCoordinates.PalpagosExtent
         : [MinY, MinX, MaxY, MaxX];
@@ -118,7 +121,11 @@ public static class MapCoordinates
     public static (double X, double Y) ToPalpagos(double worldX, double worldY) =>
         ((worldY - 158000d) / 459d, (worldX + 123888d) / 459d);
 
+    public static bool IsWithinWorldExtent(
+        double worldX, double worldY, double minX, double minY, double maxX, double maxY) =>
+        worldX >= Math.Min(minX, maxX) && worldX <= Math.Max(minX, maxX) &&
+        worldY >= Math.Min(minY, maxY) && worldY <= Math.Max(minY, maxY);
+
     internal static (double X, double Y) ToMap(MapRegion region, double worldX, double worldY, MapDefinition? definition) =>
         region == MapRegion.Palpagos ? ToPalpagos(worldX, worldY) : (worldY, worldX);
 }
-

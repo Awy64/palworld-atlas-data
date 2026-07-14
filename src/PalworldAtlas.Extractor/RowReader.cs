@@ -64,6 +64,25 @@ internal sealed class RowReader(FStructFallback row)
         return fallback;
     }
 
+    public double NumberAt(int index, double fallback, params string[] names)
+    {
+        var property = Find(names);
+        if (property is null || index < 0) return fallback;
+        try
+        {
+            var array = property.Tag.GetValue<UScriptArray>();
+            if (index >= array.Properties.Count) return fallback;
+            var item = array.Properties[index];
+            foreach (var type in new[] { typeof(double), typeof(float), typeof(int), typeof(long), typeof(short), typeof(byte) })
+            {
+                try { return Convert.ToDouble(item.GetValue(type)); }
+                catch { }
+            }
+        }
+        catch { }
+        return fallback;
+    }
+
     public bool Bool(bool fallback, params string[] names)
     {
         var property = Find(names);

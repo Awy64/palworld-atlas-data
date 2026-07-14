@@ -20,4 +20,17 @@ public sealed class MapCoordinatesTests
         Assert.InRange(result.X, MapCoordinates.PalpagosExtent[0], MapCoordinates.PalpagosExtent[2]);
         Assert.InRange(result.Y, MapCoordinates.PalpagosExtent[1], MapCoordinates.PalpagosExtent[3]);
     }
+
+    [Fact]
+    public void DetectsWorldTreeCoordinatesFromServerMapBounds()
+    {
+        Assert.True(MapCoordinates.IsWithinWorldExtent(
+            539955, -583230,
+            347351.5, -818197,
+            689148.5, -476400));
+        Assert.False(MapCoordinates.IsWithinWorldExtent(
+            -167230, 96430,
+            347351.5, -818197,
+            689148.5, -476400));
+    }
 }

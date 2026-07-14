@@ -13,7 +13,7 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        WriteIndented = true,
+        WriteIndented = false,
         DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
         Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
     };
@@ -123,7 +123,10 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
             var sourceId = row.Key.Text;
             var reader = new RowReader(row.Value);
             if (!reader.Bool(false, "IsPal") || reader.Bool(false, "IsBoss") || reader.Bool(false, "IsTowerBoss") || reader.Bool(false, "IsRaidBoss")) continue;
-            if (sourceId.Contains("Quest", StringComparison.OrdinalIgnoreCase) || sourceId.Contains("PREDATOR", StringComparison.OrdinalIgnoreCase)) continue;
+            if (sourceId.Contains("Quest", StringComparison.OrdinalIgnoreCase) ||
+                sourceId.Contains("PREDATOR", StringComparison.OrdinalIgnoreCase) ||
+                sourceId.StartsWith("SUMMON_", StringComparison.OrdinalIgnoreCase) ||
+                sourceId.Contains("_Oilrig", StringComparison.OrdinalIgnoreCase)) continue;
             var paldex = reader.Int(-1, "ZukanIndex", "PalDexNum");
             var rarity = reader.Int(0, "Rarity");
             var breedRank = reader.Int(0, "CombiRank", "BreedingRank");
@@ -163,13 +166,14 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
             var id = row.Key.Text;
             var reader = new RowReader(row.Value);
             if (reader.Bool(false, "Disabled", "bDisabled")) continue;
+            if (!reader.Bool(true, "bLegalInGame")) continue;
             var nameOverride = reader.String("", "OverrideNameTextId", "NameTextId").Replace("ITEM_NAME_", "", StringComparison.OrdinalIgnoreCase);
             var descriptionOverride = reader.String("", "OverrideDescription", "DescriptionTextId").Replace("ITEM_DESC_", "", StringComparison.OrdinalIgnoreCase);
             result[id] = new AtlasItem(
                 id,
                 names.GetValueOrDefault(id) ?? names.GetValueOrDefault(nameOverride) ?? id.Replace('_', ' '),
                 descriptions.GetValueOrDefault(id) ?? descriptions.GetValueOrDefault(descriptionOverride),
-                StripEnum(reader.String("Other", "Group", "ItemGroup")),
+                StripEnum(reader.String("Other", "TypeA", "Group", "ItemGroup")),
                 StripEnum(reader.String("Other", "TypeB", "Subcategory")),
                 reader.Int(0, "Rarity"), reader.Int(0, "Rank"), reader.Int(1, "MaxStackCount", "MaxStack"),
                 reader.Number(0, "Weight"), reader.Int(0, "Price"), reader.String("", "Icon", "IconName"));
@@ -234,7 +238,7 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
                 var value when value.Contains("Day", StringComparison.OrdinalIgnoreCase) => "day",
                 _ => "both",
             };
-            var groupWeight = reader.Number(1, "Weight", "SpawnWeight");
+            var groupWeight = reader.Number(1, "SpawnWeight");
             var keys = new[] { row.Key.Text, reader.String(row.Key.Text, "SpawnerName", "SpawnerID") }
                 .Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
             for (var index = 1; index <= 8; index++)
@@ -244,7 +248,8 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
                 var definition = new SpawnDefinition(row.Key.Text, NormalizePalId(rawPalId), availability,
                     reader.Int(0, $"LvMin_{index}", $"MinLevel_{index}"),
                     reader.Int(0, $"LvMax_{index}", $"MaxLevel_{index}"),
-                    reader.Number(groupWeight, $"Weight_{index}", $"SpawnWeight_{index}"));
+                    PositiveWeight(reader.NumberAt(index - 1, double.NaN, "Weight"),
+                        reader.Number(groupWeight, $"Weight_{index}", $"SpawnWeight_{index}")));
                 foreach (var key in keys)
                 {
                     if (!definitions.TryGetValue(key, out var list)) definitions[key] = list = [];
@@ -261,7 +266,10 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
             var coordinates = reader.Coordinates("Transform", "Location", "WorldLocation", "Position", "SpawnerTransform");
             if (coordinates is null) continue;
             var mapName = reader.String("", "MapName", "WorldName", "LevelName", "Region");
-            var region = mapName.Contains("Tree", StringComparison.OrdinalIgnoreCase) || row.Key.Text.Contains("Tree", StringComparison.OrdinalIgnoreCase)
+            var treeDefinition = mapDefinitions.GetValueOrDefault(MapRegion.Tree);
+            var region = mapName.Contains("Tree", StringComparison.OrdinalIgnoreCase) ||
+                         row.Key.Text.Contains("Tree", StringComparison.OrdinalIgnoreCase) ||
+                         treeDefinition?.Contains(coordinates.Value.X, coordinates.Value.Y) == true
                 ? MapRegion.Tree : MapRegion.Palpagos;
             placements.Add(new Placement(row.Key.Text,
                 reader.String(row.Key.Text, "SpawnerID", "SpawnerName", "SpawnerDataID", "WildSpawnerID"),
@@ -297,7 +305,10 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
             if (direct is null && linked is null) continue;
             var worldX = direct?.X ?? linked!.WorldX;
             var worldY = direct?.Y ?? linked!.WorldY;
-            var region = linked?.Region ?? (row.Key.Text.Contains("Tree", StringComparison.OrdinalIgnoreCase) ? MapRegion.Tree : MapRegion.Palpagos);
+            var treeDefinition = mapDefinitions.GetValueOrDefault(MapRegion.Tree);
+            var region = linked?.Region ??
+                (row.Key.Text.Contains("Tree", StringComparison.OrdinalIgnoreCase) || treeDefinition?.Contains(worldX, worldY) == true
+                    ? MapRegion.Tree : MapRegion.Palpagos);
             var map = MapCoordinates.ToMap(region, worldX, worldY, mapDefinitions.GetValueOrDefault(region));
             var level = reader.Int(0, "Level", "BossLevel", "Lv");
             result.Add(new AtlasSpawn($"alpha-{row.Key.Text}-{pal.Id}", pal.Id, pal.Name, region, "alpha",
@@ -305,6 +316,11 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
         }
         return result.DistinctBy(spawn => spawn.Id).ToList();
     }
+
+    private static double PositiveWeight(double preferred, double fallback) =>
+        double.IsFinite(preferred) && preferred > 0
+            ? preferred
+            : double.IsFinite(fallback) && fallback > 0 ? fallback : 1;
 
     private static void Validate(
         IReadOnlyList<AtlasPal> pals,
@@ -317,6 +333,8 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
             throw new InvalidDataException("Core Pal, item, or breeding output is empty");
         if (!spawns.Any(spawn => spawn.Kind == "wild") || !spawns.Any(spawn => spawn.Kind == "alpha"))
             throw new InvalidDataException("Exact wild and alpha spawn outputs are required");
+        if (spawns.Any(spawn => spawn.Region == MapRegion.Tree) == false)
+            throw new InvalidDataException("World Tree metadata is present but no Tree spawn coordinates were produced");
         if (pals.Select(pal => pal.Id).Distinct(StringComparer.OrdinalIgnoreCase).Count() != pals.Count)
             throw new InvalidDataException("Duplicate Pal IDs detected");
         if (items.Select(item => item.Id).Distinct(StringComparer.OrdinalIgnoreCase).Count() != items.Count)
