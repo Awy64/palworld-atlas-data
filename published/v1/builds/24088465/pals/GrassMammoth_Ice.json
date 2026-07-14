@@ -1,0 +1,24 @@
+{
+  "id": "GrassMammoth_Ice",
+  "tribe": "GrassMammoth_Ice",
+  "name": "Mammorest Cryst",
+  "paldexNumber": 87,
+  "rarity": 9,
+  "elements": [
+    "Ice",
+    "Earth"
+  ],
+  "hp": 150,
+  "attack": 85,
+  "defense": 90,
+  "runSpeed": 600,
+  "stamina": 180,
+  "food": 6,
+  "breedingRank": 1070,
+  "nocturnal": false,
+  "workSuitability": {
+    "Deforest": 5,
+    "Mining": 4,
+    "Cool": 5
+  }
+}

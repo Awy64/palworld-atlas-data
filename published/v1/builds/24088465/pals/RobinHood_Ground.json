@@ -1,0 +1,26 @@
+{
+  "id": "RobinHood_Ground",
+  "tribe": "RobinHood_Ground",
+  "name": "Robinquill Terra",
+  "paldexNumber": 76,
+  "rarity": 6,
+  "elements": [
+    "Leaf",
+    "Earth"
+  ],
+  "hp": 90,
+  "attack": 105,
+  "defense": 80,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 2050,
+  "nocturnal": false,
+  "workSuitability": {
+    "Handcraft": 3,
+    "Collection": 3,
+    "Deforest": 2,
+    "ProductMedicine": 2,
+    "Transport": 2
+  }
+}

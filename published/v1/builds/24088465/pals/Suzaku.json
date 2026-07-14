@@ -1,0 +1,21 @@
+{
+  "id": "Suzaku",
+  "tribe": "Suzaku",
+  "name": "Suzaku",
+  "paldexNumber": 122,
+  "rarity": 8,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 120,
+  "attack": 105,
+  "defense": 105,
+  "runSpeed": 850,
+  "stamina": 350,
+  "food": 7,
+  "breedingRank": 1200,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 5
+  }
+}

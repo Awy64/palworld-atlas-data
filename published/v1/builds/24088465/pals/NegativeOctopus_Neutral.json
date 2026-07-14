@@ -1,0 +1,24 @@
+{
+  "id": "NegativeOctopus_Neutral",
+  "tribe": "NegativeOctopus_Neutral",
+  "name": "Killamari Primo",
+  "paldexNumber": 30,
+  "rarity": 2,
+  "elements": [
+    "Normal",
+    "Water"
+  ],
+  "hp": 70,
+  "attack": 60,
+  "defense": 70,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2540,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 1,
+    "Collection": 1,
+    "Transport": 2
+  }
+}

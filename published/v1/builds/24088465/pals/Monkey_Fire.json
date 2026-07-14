@@ -1,0 +1,24 @@
+{
+  "id": "Monkey_Fire",
+  "tribe": "Monkey_Fire",
+  "name": "Tanzee Ignis",
+  "paldexNumber": 23,
+  "rarity": 2,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 80,
+  "attack": 75,
+  "defense": 70,
+  "runSpeed": 300,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2830,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 1,
+    "Handcraft": 1,
+    "Deforest": 1,
+    "Transport": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "PinkRabbit_Grass",
+  "tribe": "PinkRabbit_Grass",
+  "name": "Ribbuny Botan",
+  "paldexNumber": 44,
+  "rarity": 1,
+  "elements": [
+    "Leaf"
+  ],
+  "hp": 80,
+  "attack": 65,
+  "defense": 70,
+  "runSpeed": 245,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2460,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 2,
+    "Handcraft": 2,
+    "Collection": 2,
+    "Transport": 1
+  }
+}

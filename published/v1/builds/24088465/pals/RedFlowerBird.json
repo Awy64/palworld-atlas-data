@@ -1,0 +1,22 @@
+{
+  "id": "RedFlowerBird",
+  "tribe": "RedFlowerBird",
+  "name": "Tropicaw",
+  "paldexNumber": 173,
+  "rarity": 5,
+  "elements": [
+    "Leaf"
+  ],
+  "hp": 85,
+  "attack": 85,
+  "defense": 90,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 6,
+  "breedingRank": 1350,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 5,
+    "Collection": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Horus_Water",
+  "tribe": "Horus_Water",
+  "name": "Faleris Aqua",
+  "paldexNumber": 188,
+  "rarity": 9,
+  "elements": [
+    "Water"
+  ],
+  "hp": 110,
+  "attack": 110,
+  "defense": 115,
+  "runSpeed": 1000,
+  "stamina": 230,
+  "food": 9,
+  "breedingRank": 450,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 6,
+    "Transport": 5
+  }
+}

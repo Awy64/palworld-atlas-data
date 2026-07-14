@@ -1,0 +1,24 @@
+{
+  "id": "PinkLizard",
+  "tribe": "PinkLizard",
+  "name": "Lovander",
+  "paldexNumber": 69,
+  "rarity": 5,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 120,
+  "attack": 70,
+  "defense": 70,
+  "runSpeed": 750,
+  "stamina": 100,
+  "food": 4,
+  "breedingRank": 2090,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 3,
+    "Mining": 2,
+    "ProductMedicine": 3,
+    "Transport": 2
+  }
+}

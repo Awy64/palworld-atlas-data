@@ -1,0 +1,24 @@
+{
+  "id": "LavaGirl",
+  "tribe": "LavaGirl",
+  "name": "Flambelle",
+  "paldexNumber": 25,
+  "rarity": 1,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 60,
+  "attack": 70,
+  "defense": 80,
+  "runSpeed": 250,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2700,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 1,
+    "Handcraft": 1,
+    "Transport": 1,
+    "MonsterFarm": 1
+  }
+}

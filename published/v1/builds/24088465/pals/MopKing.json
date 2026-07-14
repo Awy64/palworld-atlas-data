@@ -1,0 +1,22 @@
+{
+  "id": "MopKing",
+  "tribe": "MopKing",
+  "name": "Sweepa",
+  "paldexNumber": 36,
+  "rarity": 6,
+  "elements": [
+    "Ice"
+  ],
+  "hp": 100,
+  "attack": 90,
+  "defense": 90,
+  "runSpeed": 650,
+  "stamina": 120,
+  "food": 4,
+  "breedingRank": 2150,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 2,
+    "Cool": 3
+  }
+}

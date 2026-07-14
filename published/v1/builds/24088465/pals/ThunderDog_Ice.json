@@ -1,0 +1,21 @@
+{
+  "id": "ThunderDog_Ice",
+  "tribe": "ThunderDog_Ice",
+  "name": "Rayhound Cryst",
+  "paldexNumber": 98,
+  "rarity": 6,
+  "elements": [
+    "Ice"
+  ],
+  "hp": 90,
+  "attack": 105,
+  "defense": 80,
+  "runSpeed": 700,
+  "stamina": 100,
+  "food": 4,
+  "breedingRank": 1600,
+  "nocturnal": false,
+  "workSuitability": {
+    "Cool": 3
+  }
+}

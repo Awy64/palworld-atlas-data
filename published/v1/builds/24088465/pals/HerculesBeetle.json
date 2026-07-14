@@ -1,0 +1,25 @@
+{
+  "id": "HerculesBeetle",
+  "tribe": "HerculesBeetle",
+  "name": "Warsect",
+  "paldexNumber": 113,
+  "rarity": 8,
+  "elements": [
+    "Earth",
+    "Leaf"
+  ],
+  "hp": 120,
+  "attack": 100,
+  "defense": 120,
+  "runSpeed": 500,
+  "stamina": 100,
+  "food": 6,
+  "breedingRank": 1280,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 3,
+    "Handcraft": 3,
+    "Deforest": 4,
+    "Transport": 5
+  }
+}

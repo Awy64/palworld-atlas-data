@@ -1,0 +1,26 @@
+{
+  "id": "Ronin_Dark",
+  "tribe": "Ronin_Dark",
+  "name": "Bushi Noct",
+  "paldexNumber": 85,
+  "rarity": 7,
+  "elements": [
+    "Fire",
+    "Dark"
+  ],
+  "hp": 80,
+  "attack": 130,
+  "defense": 80,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 5,
+  "breedingRank": 840,
+  "nocturnal": true,
+  "workSuitability": {
+    "EmitFlame": 2,
+    "Handcraft": 2,
+    "Collection": 1,
+    "Deforest": 5,
+    "Transport": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "MopBaby",
+  "tribe": "MopBaby",
+  "name": "Swee",
+  "paldexNumber": 35,
+  "rarity": 1,
+  "elements": [
+    "Ice"
+  ],
+  "hp": 60,
+  "attack": 60,
+  "defense": 60,
+  "runSpeed": 250,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2840,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 1,
+    "Cool": 1
+  }
+}

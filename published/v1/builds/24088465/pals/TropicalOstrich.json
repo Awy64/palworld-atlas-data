@@ -1,0 +1,23 @@
+{
+  "id": "TropicalOstrich",
+  "tribe": "TropicalOstrich",
+  "name": "Palumba",
+  "paldexNumber": 106,
+  "rarity": 6,
+  "elements": [
+    "Leaf"
+  ],
+  "hp": 105,
+  "attack": 110,
+  "defense": 115,
+  "runSpeed": 550,
+  "stamina": 180,
+  "food": 6,
+  "breedingRank": 1240,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 4,
+    "Collection": 4,
+    "Mining": 5
+  }
+}

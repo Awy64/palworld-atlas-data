@@ -1,0 +1,22 @@
+{
+  "id": "Horus",
+  "tribe": "Horus",
+  "name": "Faleris",
+  "paldexNumber": 188,
+  "rarity": 9,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 105,
+  "attack": 110,
+  "defense": 115,
+  "runSpeed": 1000,
+  "stamina": 230,
+  "food": 9,
+  "breedingRank": 500,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 6,
+    "Transport": 3
+  }
+}

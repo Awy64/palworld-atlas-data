@@ -1,0 +1,23 @@
+{
+  "id": "SharkKid",
+  "tribe": "SharkKid",
+  "name": "Gobfin",
+  "paldexNumber": 55,
+  "rarity": 2,
+  "elements": [
+    "Water"
+  ],
+  "hp": 90,
+  "attack": 90,
+  "defense": 75,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2550,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 2,
+    "Handcraft": 2,
+    "Transport": 1
+  }
+}

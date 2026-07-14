@@ -1,0 +1,25 @@
+{
+  "id": "LazyCatfish",
+  "tribe": "LazyCatfish",
+  "name": "Dumud",
+  "paldexNumber": 109,
+  "rarity": 4,
+  "elements": [
+    "Earth",
+    "Water"
+  ],
+  "hp": 100,
+  "attack": 70,
+  "defense": 95,
+  "runSpeed": 450,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 2290,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 2,
+    "Mining": 2,
+    "Transport": 1,
+    "MonsterFarm": 1
+  }
+}

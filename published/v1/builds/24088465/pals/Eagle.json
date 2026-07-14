@@ -1,0 +1,21 @@
+{
+  "id": "Eagle",
+  "tribe": "Eagle",
+  "name": "Galeclaw",
+  "paldexNumber": 49,
+  "rarity": 2,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 75,
+  "attack": 85,
+  "defense": 60,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2570,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 2
+  }
+}

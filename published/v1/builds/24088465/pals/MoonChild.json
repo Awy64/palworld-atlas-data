@@ -1,0 +1,23 @@
+{
+  "id": "MoonChild",
+  "tribe": "MoonChild",
+  "name": "Wistella",
+  "paldexNumber": 181,
+  "rarity": 2,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 80,
+  "attack": 90,
+  "defense": 60,
+  "runSpeed": 450,
+  "stamina": 100,
+  "food": 5,
+  "breedingRank": 1180,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 6,
+    "ProductMedicine": 6,
+    "Transport": 1
+  }
+}

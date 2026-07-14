@@ -1,0 +1,23 @@
+{
+  "id": "FoxExorcist",
+  "tribe": "FoxExorcist",
+  "name": "Flaracle",
+  "paldexNumber": 174,
+  "rarity": 7,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 110,
+  "attack": 125,
+  "defense": 105,
+  "runSpeed": 500,
+  "stamina": 100,
+  "food": 8,
+  "breedingRank": 390,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 7,
+    "Handcraft": 6,
+    "Transport": 2
+  }
+}

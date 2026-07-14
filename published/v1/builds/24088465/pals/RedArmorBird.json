@@ -1,0 +1,22 @@
+{
+  "id": "RedArmorBird",
+  "tribe": "RedArmorBird",
+  "name": "Ragnahawk",
+  "paldexNumber": 104,
+  "rarity": 7,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 95,
+  "attack": 105,
+  "defense": 120,
+  "runSpeed": 800,
+  "stamina": 150,
+  "food": 7,
+  "breedingRank": 1050,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 4,
+    "Transport": 5
+  }
+}

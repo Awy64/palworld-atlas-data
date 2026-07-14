@@ -1,0 +1,23 @@
+{
+  "id": "DreamDemon",
+  "tribe": "DreamDemon",
+  "name": "Daedream",
+  "paldexNumber": 22,
+  "rarity": 1,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 70,
+  "attack": 75,
+  "defense": 60,
+  "runSpeed": 300,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2910,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 1,
+    "Collection": 1,
+    "Transport": 1
+  }
+}

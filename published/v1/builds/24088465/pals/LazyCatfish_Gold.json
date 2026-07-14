@@ -1,0 +1,25 @@
+{
+  "id": "LazyCatfish_Gold",
+  "tribe": "LazyCatfish_Gold",
+  "name": "Dumud Gild",
+  "paldexNumber": 109,
+  "rarity": 5,
+  "elements": [
+    "Earth",
+    "Water"
+  ],
+  "hp": 105,
+  "attack": 75,
+  "defense": 100,
+  "runSpeed": 450,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 1620,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 2,
+    "Mining": 2,
+    "Transport": 1,
+    "MonsterFarm": 4
+  }
+}

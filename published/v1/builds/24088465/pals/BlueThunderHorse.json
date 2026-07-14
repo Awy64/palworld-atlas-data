@@ -1,0 +1,21 @@
+{
+  "id": "BlueThunderHorse",
+  "tribe": "BlueThunderHorse",
+  "name": "Azurmane",
+  "paldexNumber": 161,
+  "rarity": 7,
+  "elements": [
+    "Electricity"
+  ],
+  "hp": 130,
+  "attack": 120,
+  "defense": 110,
+  "runSpeed": 900,
+  "stamina": 220,
+  "food": 8,
+  "breedingRank": 420,
+  "nocturnal": false,
+  "workSuitability": {
+    "GenerateElectricity": 5
+  }
+}

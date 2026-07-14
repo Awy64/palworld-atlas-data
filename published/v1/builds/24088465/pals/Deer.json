@@ -1,0 +1,21 @@
+{
+  "id": "Deer",
+  "tribe": "Deer",
+  "name": "Eikthyrdeer",
+  "paldexNumber": 32,
+  "rarity": 5,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 95,
+  "attack": 80,
+  "defense": 80,
+  "runSpeed": 700,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2710,
+  "nocturnal": false,
+  "workSuitability": {
+    "Deforest": 2
+  }
+}

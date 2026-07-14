@@ -1,0 +1,24 @@
+{
+  "id": "PurpleSpider",
+  "tribe": "PurpleSpider",
+  "name": "Tarantriss",
+  "paldexNumber": 71,
+  "rarity": 3,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 110,
+  "attack": 100,
+  "defense": 100,
+  "runSpeed": 640,
+  "stamina": 100,
+  "food": 4,
+  "breedingRank": 1730,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 3,
+    "Collection": 3,
+    "ProductMedicine": 2,
+    "Transport": 2
+  }
+}

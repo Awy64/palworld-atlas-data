@@ -1,0 +1,21 @@
+{
+  "id": "Boar",
+  "tribe": "Boar",
+  "name": "Rushoar",
+  "paldexNumber": 28,
+  "rarity": 1,
+  "elements": [
+    "Earth"
+  ],
+  "hp": 80,
+  "attack": 70,
+  "defense": 70,
+  "runSpeed": 500,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2880,
+  "nocturnal": false,
+  "workSuitability": {
+    "Mining": 1
+  }
+}

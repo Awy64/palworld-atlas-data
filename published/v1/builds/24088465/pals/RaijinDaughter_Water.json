@@ -1,0 +1,25 @@
+{
+  "id": "RaijinDaughter_Water",
+  "tribe": "RaijinDaughter_Water",
+  "name": "Dazzi Noct",
+  "paldexNumber": 92,
+  "rarity": 2,
+  "elements": [
+    "Dark",
+    "Electricity"
+  ],
+  "hp": 70,
+  "attack": 80,
+  "defense": 75,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 1910,
+  "nocturnal": true,
+  "workSuitability": {
+    "GenerateElectricity": 1,
+    "Handcraft": 1,
+    "ProductMedicine": 1,
+    "Transport": 2
+  }
+}

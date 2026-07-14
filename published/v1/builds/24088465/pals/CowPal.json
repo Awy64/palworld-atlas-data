@@ -1,0 +1,21 @@
+{
+  "id": "CowPal",
+  "tribe": "CowPal",
+  "name": "Mozzarina",
+  "paldexNumber": 40,
+  "rarity": 2,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 90,
+  "attack": 50,
+  "defense": 80,
+  "runSpeed": 580,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2800,
+  "nocturnal": false,
+  "workSuitability": {
+    "MonsterFarm": 2
+  }
+}

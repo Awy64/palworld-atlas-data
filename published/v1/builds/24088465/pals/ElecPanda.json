@@ -1,0 +1,24 @@
+{
+  "id": "ElecPanda",
+  "tribe": "ElecPanda",
+  "name": "Grizzbolt",
+  "paldexNumber": 185,
+  "rarity": 8,
+  "elements": [
+    "Electricity"
+  ],
+  "hp": 120,
+  "attack": 105,
+  "defense": 105,
+  "runSpeed": 600,
+  "stamina": 180,
+  "food": 6,
+  "breedingRank": 1020,
+  "nocturnal": false,
+  "workSuitability": {
+    "GenerateElectricity": 5,
+    "Handcraft": 4,
+    "Deforest": 3,
+    "Transport": 5
+  }
+}

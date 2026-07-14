@@ -1,0 +1,24 @@
+{
+  "id": "FlyingManta_Thunder",
+  "tribe": "FlyingManta_Thunder",
+  "name": "Celaray Lux",
+  "paldexNumber": 7,
+  "rarity": 4,
+  "elements": [
+    "Water",
+    "Electricity"
+  ],
+  "hp": 80,
+  "attack": 75,
+  "defense": 80,
+  "runSpeed": 550,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2380,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 1,
+    "GenerateElectricity": 2,
+    "Transport": 1
+  }
+}

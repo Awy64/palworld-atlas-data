@@ -1,0 +1,26 @@
+{
+  "id": "CandleGhost",
+  "tribe": "CandleGhost",
+  "name": "Sootseer",
+  "paldexNumber": 135,
+  "rarity": 7,
+  "elements": [
+    "Dark",
+    "Fire"
+  ],
+  "hp": 105,
+  "attack": 125,
+  "defense": 90,
+  "runSpeed": 800,
+  "stamina": 100,
+  "food": 7,
+  "breedingRank": 980,
+  "nocturnal": true,
+  "workSuitability": {
+    "EmitFlame": 3,
+    "Handcraft": 3,
+    "Collection": 2,
+    "Mining": 3,
+    "MonsterFarm": 2
+  }
+}

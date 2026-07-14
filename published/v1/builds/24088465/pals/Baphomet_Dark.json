@@ -1,0 +1,23 @@
+{
+  "id": "Baphomet_Dark",
+  "tribe": "Baphomet_Dark",
+  "name": "Incineram Noct",
+  "paldexNumber": 91,
+  "rarity": 5,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 95,
+  "attack": 105,
+  "defense": 85,
+  "runSpeed": 700,
+  "stamina": 100,
+  "food": 5,
+  "breedingRank": 1310,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 3,
+    "Mining": 4,
+    "Transport": 3
+  }
+}

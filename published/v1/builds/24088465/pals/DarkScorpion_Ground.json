@@ -1,0 +1,22 @@
+{
+  "id": "DarkScorpion_Ground",
+  "tribe": "DarkScorpion_Ground",
+  "name": "Menasting Terra",
+  "paldexNumber": 99,
+  "rarity": 10,
+  "elements": [
+    "Earth"
+  ],
+  "hp": 100,
+  "attack": 105,
+  "defense": 130,
+  "runSpeed": 1000,
+  "stamina": 100,
+  "food": 6,
+  "breedingRank": 640,
+  "nocturnal": false,
+  "workSuitability": {
+    "Deforest": 3,
+    "Mining": 6
+  }
+}

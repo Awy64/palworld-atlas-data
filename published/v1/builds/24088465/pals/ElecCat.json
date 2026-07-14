@@ -1,0 +1,24 @@
+{
+  "id": "ElecCat",
+  "tribe": "ElecCat",
+  "name": "Sparkit",
+  "paldexNumber": 42,
+  "rarity": 1,
+  "elements": [
+    "Electricity"
+  ],
+  "hp": 60,
+  "attack": 75,
+  "defense": 70,
+  "runSpeed": 350,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 3010,
+  "nocturnal": false,
+  "workSuitability": {
+    "GenerateElectricity": 1,
+    "Handcraft": 1,
+    "Transport": 1,
+    "MonsterFarm": 1
+  }
+}

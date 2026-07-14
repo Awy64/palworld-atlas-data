@@ -1,0 +1,26 @@
+{
+  "id": "SkyDragon_Grass",
+  "tribe": "SkyDragon_Grass",
+  "name": "Quivern Botan",
+  "paldexNumber": 124,
+  "rarity": 8,
+  "elements": [
+    "Dragon",
+    "Leaf"
+  ],
+  "hp": 105,
+  "attack": 105,
+  "defense": 100,
+  "runSpeed": 800,
+  "stamina": 220,
+  "food": 6,
+  "breedingRank": 1300,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 5,
+    "Handcraft": 2,
+    "Collection": 4,
+    "Mining": 3,
+    "Transport": 4
+  }
+}

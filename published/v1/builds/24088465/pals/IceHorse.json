@@ -1,0 +1,21 @@
+{
+  "id": "IceHorse",
+  "tribe": "IceHorse",
+  "name": "Frostallion",
+  "paldexNumber": 200,
+  "rarity": 20,
+  "elements": [
+    "Ice"
+  ],
+  "hp": 140,
+  "attack": 140,
+  "defense": 120,
+  "runSpeed": 1200,
+  "stamina": 300,
+  "food": 9,
+  "breedingRank": 150,
+  "nocturnal": false,
+  "workSuitability": {
+    "Cool": 7
+  }
+}

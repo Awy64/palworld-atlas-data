@@ -1,0 +1,21 @@
+{
+  "id": "RockBeast",
+  "tribe": "RockBeast",
+  "name": "Pierdon",
+  "paldexNumber": 131,
+  "rarity": 6,
+  "elements": [
+    "Earth"
+  ],
+  "hp": 100,
+  "attack": 105,
+  "defense": 120,
+  "runSpeed": 350,
+  "stamina": 100,
+  "food": 8,
+  "breedingRank": 1110,
+  "nocturnal": false,
+  "workSuitability": {
+    "Mining": 5
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "LizardMan_Oilrig",
+  "tribe": "LizardMan",
+  "name": "Leezpunk",
+  "paldexNumber": 73,
+  "rarity": 2,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 80,
+  "attack": 80,
+  "defense": 50,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 9,
+  "breedingRank": 9999,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 1,
+    "Collection": 1,
+    "Transport": 1
+  }
+}

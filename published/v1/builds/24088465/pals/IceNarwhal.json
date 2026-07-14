@@ -1,0 +1,23 @@
+{
+  "id": "IceNarwhal",
+  "tribe": "IceNarwhal",
+  "name": "Whalaska",
+  "paldexNumber": 151,
+  "rarity": 8,
+  "elements": [
+    "Ice",
+    "Water"
+  ],
+  "hp": 105,
+  "attack": 115,
+  "defense": 110,
+  "runSpeed": 600,
+  "stamina": 200,
+  "food": 8,
+  "breedingRank": 710,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 5,
+    "Cool": 6
+  }
+}

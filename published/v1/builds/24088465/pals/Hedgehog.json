@@ -1,0 +1,21 @@
+{
+  "id": "Hedgehog",
+  "tribe": "Hedgehog",
+  "name": "Jolthog",
+  "paldexNumber": 15,
+  "rarity": 1,
+  "elements": [
+    "Electricity"
+  ],
+  "hp": 70,
+  "attack": 75,
+  "defense": 70,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 3030,
+  "nocturnal": false,
+  "workSuitability": {
+    "GenerateElectricity": 1
+  }
+}

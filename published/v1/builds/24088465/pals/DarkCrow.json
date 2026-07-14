@@ -1,0 +1,22 @@
+{
+  "id": "DarkCrow",
+  "tribe": "DarkCrow",
+  "name": "Cawgnito",
+  "paldexNumber": 57,
+  "rarity": 3,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 75,
+  "attack": 95,
+  "defense": 80,
+  "runSpeed": 920,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 2370,
+  "nocturnal": true,
+  "workSuitability": {
+    "Deforest": 2,
+    "MonsterFarm": 1
+  }
+}

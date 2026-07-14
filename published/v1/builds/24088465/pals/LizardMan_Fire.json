@@ -1,0 +1,24 @@
+{
+  "id": "LizardMan_Fire",
+  "tribe": "LizardMan_Fire",
+  "name": "Leezpunk Ignis",
+  "paldexNumber": 73,
+  "rarity": 3,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 80,
+  "attack": 80,
+  "defense": 50,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2640,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 2,
+    "Handcraft": 2,
+    "Collection": 1,
+    "Transport": 1
+  }
+}

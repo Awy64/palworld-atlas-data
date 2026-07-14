@@ -1,0 +1,22 @@
+{
+  "id": "LegendDeer",
+  "tribe": "LegendDeer",
+  "name": "Hartalis",
+  "paldexNumber": 197,
+  "rarity": 10,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 135,
+  "attack": 130,
+  "defense": 110,
+  "runSpeed": 900,
+  "stamina": 400,
+  "food": 9,
+  "breedingRank": 90,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 7,
+    "Deforest": 7
+  }
+}

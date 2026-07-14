@@ -1,0 +1,22 @@
+{
+  "id": "DarkAlien",
+  "tribe": "DarkAlien",
+  "name": "Xenovader",
+  "paldexNumber": 145,
+  "rarity": 7,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 90,
+  "attack": 125,
+  "defense": 85,
+  "runSpeed": 550,
+  "stamina": 100,
+  "food": 4,
+  "breedingRank": 1820,
+  "nocturnal": true,
+  "workSuitability": {
+    "Deforest": 3,
+    "Transport": 2
+  }
+}

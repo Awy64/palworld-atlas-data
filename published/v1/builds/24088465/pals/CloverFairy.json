@@ -1,0 +1,23 @@
+{
+  "id": "CloverFairy",
+  "tribe": "CloverFairy",
+  "name": "Clovee",
+  "paldexNumber": 14,
+  "rarity": 2,
+  "elements": [
+    "Leaf",
+    "Normal"
+  ],
+  "hp": 80,
+  "attack": 65,
+  "defense": 65,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2970,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 1,
+    "Collection": 1
+  }
+}

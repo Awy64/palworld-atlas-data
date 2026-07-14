@@ -1,0 +1,24 @@
+{
+  "id": "ClownRabbit",
+  "tribe": "ClownRabbit",
+  "name": "Dupin",
+  "paldexNumber": 176,
+  "rarity": 7,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 100,
+  "attack": 110,
+  "defense": 100,
+  "runSpeed": 500,
+  "stamina": 100,
+  "food": 8,
+  "breedingRank": 520,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 7,
+    "Handcraft": 5,
+    "ProductMedicine": 4,
+    "Transport": 2
+  }
+}

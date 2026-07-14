@@ -1,0 +1,22 @@
+{
+  "id": "BlueDragon",
+  "tribe": "BlueDragon",
+  "name": "Azurobe",
+  "paldexNumber": 41,
+  "rarity": 7,
+  "elements": [
+    "Water",
+    "Dragon"
+  ],
+  "hp": 110,
+  "attack": 100,
+  "defense": 100,
+  "runSpeed": 600,
+  "stamina": 160,
+  "food": 5,
+  "breedingRank": 1830,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 4
+  }
+}

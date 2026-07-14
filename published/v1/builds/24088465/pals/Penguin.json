@@ -1,0 +1,25 @@
+{
+  "id": "Penguin",
+  "tribe": "Penguin",
+  "name": "Pengullet",
+  "paldexNumber": 17,
+  "rarity": 1,
+  "elements": [
+    "Water",
+    "Ice"
+  ],
+  "hp": 70,
+  "attack": 75,
+  "defense": 70,
+  "runSpeed": 500,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2960,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 1,
+    "Handcraft": 1,
+    "Cool": 1,
+    "Transport": 1
+  }
+}

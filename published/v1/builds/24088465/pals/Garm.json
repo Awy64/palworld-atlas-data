@@ -1,0 +1,21 @@
+{
+  "id": "Garm",
+  "tribe": "Garm",
+  "name": "Direhowl",
+  "paldexNumber": 33,
+  "rarity": 2,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 80,
+  "attack": 90,
+  "defense": 75,
+  "runSpeed": 800,
+  "stamina": 70,
+  "food": 2,
+  "breedingRank": 2680,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 1
+  }
+}

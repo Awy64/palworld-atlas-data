@@ -1,0 +1,25 @@
+{
+  "id": "Baphomet",
+  "tribe": "Baphomet",
+  "name": "Incineram",
+  "paldexNumber": 91,
+  "rarity": 4,
+  "elements": [
+    "Fire",
+    "Dark"
+  ],
+  "hp": 95,
+  "attack": 100,
+  "defense": 85,
+  "runSpeed": 700,
+  "stamina": 100,
+  "food": 5,
+  "breedingRank": 1470,
+  "nocturnal": true,
+  "workSuitability": {
+    "EmitFlame": 3,
+    "Handcraft": 2,
+    "Mining": 3,
+    "Transport": 2
+  }
+}

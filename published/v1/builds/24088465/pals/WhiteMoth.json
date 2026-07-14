@@ -1,0 +1,23 @@
+{
+  "id": "WhiteMoth",
+  "tribe": "WhiteMoth",
+  "name": "Sibelyx",
+  "paldexNumber": 116,
+  "rarity": 7,
+  "elements": [
+    "Ice"
+  ],
+  "hp": 110,
+  "attack": 90,
+  "defense": 100,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 5,
+  "breedingRank": 1810,
+  "nocturnal": false,
+  "workSuitability": {
+    "ProductMedicine": 3,
+    "Cool": 3,
+    "MonsterFarm": 3
+  }
+}

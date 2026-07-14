@@ -1,0 +1,23 @@
+{
+  "id": "CuteButterfly",
+  "tribe": "CuteButterfly",
+  "name": "Cinnamoth",
+  "paldexNumber": 61,
+  "rarity": 4,
+  "elements": [
+    "Leaf"
+  ],
+  "hp": 70,
+  "attack": 80,
+  "defense": 80,
+  "runSpeed": 550,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2620,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 2,
+    "Collection": 2,
+    "ProductMedicine": 2
+  }
+}

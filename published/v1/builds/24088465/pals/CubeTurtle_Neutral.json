@@ -1,0 +1,21 @@
+{
+  "id": "CubeTurtle_Neutral",
+  "tribe": "CubeTurtle_Neutral",
+  "name": "Tetroise Primo",
+  "paldexNumber": 142,
+  "rarity": 8,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 95,
+  "attack": 100,
+  "defense": 140,
+  "runSpeed": 360,
+  "stamina": 200,
+  "food": 8,
+  "breedingRank": 200,
+  "nocturnal": false,
+  "workSuitability": {
+    "Mining": 6
+  }
+}

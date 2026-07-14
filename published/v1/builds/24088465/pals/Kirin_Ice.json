@@ -1,0 +1,22 @@
+{
+  "id": "Kirin_Ice",
+  "tribe": "Kirin_Ice",
+  "name": "Univolt Cryst",
+  "paldexNumber": 54,
+  "rarity": 6,
+  "elements": [
+    "Ice"
+  ],
+  "hp": 80,
+  "attack": 105,
+  "defense": 110,
+  "runSpeed": 720,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 540,
+  "nocturnal": false,
+  "workSuitability": {
+    "Deforest": 3,
+    "Cool": 6
+  }
+}

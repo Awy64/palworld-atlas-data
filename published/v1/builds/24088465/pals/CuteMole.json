@@ -1,0 +1,23 @@
+{
+  "id": "CuteMole",
+  "tribe": "CuteMole",
+  "name": "Fuddler",
+  "paldexNumber": 31,
+  "rarity": 1,
+  "elements": [
+    "Earth"
+  ],
+  "hp": 65,
+  "attack": 80,
+  "defense": 50,
+  "runSpeed": 300,
+  "stamina": 100,
+  "food": 2,
+  "breedingRank": 2790,
+  "nocturnal": false,
+  "workSuitability": {
+    "Handcraft": 1,
+    "Mining": 1,
+    "Transport": 1
+  }
+}

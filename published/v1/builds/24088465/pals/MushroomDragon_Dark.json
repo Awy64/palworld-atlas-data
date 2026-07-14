@@ -1,0 +1,25 @@
+{
+  "id": "MushroomDragon_Dark",
+  "tribe": "MushroomDragon_Dark",
+  "name": "Shroomer Noct",
+  "paldexNumber": 118,
+  "rarity": 5,
+  "elements": [
+    "Leaf",
+    "Dark"
+  ],
+  "hp": 110,
+  "attack": 85,
+  "defense": 90,
+  "runSpeed": 740,
+  "stamina": 220,
+  "food": 5,
+  "breedingRank": 1450,
+  "nocturnal": true,
+  "workSuitability": {
+    "Seeding": 3,
+    "Handcraft": 3,
+    "Collection": 3,
+    "Deforest": 2
+  }
+}

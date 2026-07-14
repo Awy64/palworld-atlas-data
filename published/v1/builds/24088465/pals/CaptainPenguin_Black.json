@@ -1,0 +1,26 @@
+{
+  "id": "CaptainPenguin_Black",
+  "tribe": "CaptainPenguin_Black",
+  "name": "Penking Lux",
+  "paldexNumber": 18,
+  "rarity": 7,
+  "elements": [
+    "Water",
+    "Electricity"
+  ],
+  "hp": 100,
+  "attack": 100,
+  "defense": 100,
+  "runSpeed": 450,
+  "stamina": 100,
+  "food": 4,
+  "breedingRank": 1850,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 2,
+    "GenerateElectricity": 3,
+    "Handcraft": 2,
+    "Mining": 3,
+    "Transport": 3
+  }
+}

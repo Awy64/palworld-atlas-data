@@ -1,0 +1,22 @@
+{
+  "id": "WhiteMoth_Neutral",
+  "tribe": "WhiteMoth_Neutral",
+  "name": "Sibelyx Primo",
+  "paldexNumber": 116,
+  "rarity": 8,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 115,
+  "attack": 90,
+  "defense": 100,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 5,
+  "breedingRank": 650,
+  "nocturnal": false,
+  "workSuitability": {
+    "ProductMedicine": 3,
+    "MonsterFarm": 4
+  }
+}

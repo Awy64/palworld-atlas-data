@@ -1,0 +1,24 @@
+{
+  "id": "MoonQueen",
+  "tribe": "MoonQueen",
+  "name": "Selyne",
+  "paldexNumber": 190,
+  "rarity": 9,
+  "elements": [
+    "Dark",
+    "Normal"
+  ],
+  "hp": 130,
+  "attack": 115,
+  "defense": 110,
+  "runSpeed": 1000,
+  "stamina": 300,
+  "food": 9,
+  "breedingRank": 360,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 7,
+    "ProductMedicine": 6,
+    "Transport": 3
+  }
+}

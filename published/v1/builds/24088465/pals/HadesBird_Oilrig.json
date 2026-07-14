@@ -1,0 +1,21 @@
+{
+  "id": "HadesBird_Oilrig",
+  "tribe": "HadesBird",
+  "name": "Helzephyr",
+  "paldexNumber": 80,
+  "rarity": 7,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 100,
+  "attack": 125,
+  "defense": 100,
+  "runSpeed": 700,
+  "stamina": 170,
+  "food": 9,
+  "breedingRank": 9999,
+  "nocturnal": true,
+  "workSuitability": {
+    "Transport": 3
+  }
+}

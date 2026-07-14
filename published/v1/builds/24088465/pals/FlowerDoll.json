@@ -1,0 +1,25 @@
+{
+  "id": "FlowerDoll",
+  "tribe": "FlowerDoll",
+  "name": "Petallia",
+  "paldexNumber": 89,
+  "rarity": 8,
+  "elements": [
+    "Leaf"
+  ],
+  "hp": 100,
+  "attack": 95,
+  "defense": 100,
+  "runSpeed": 550,
+  "stamina": 100,
+  "food": 6,
+  "breedingRank": 1720,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 4,
+    "Handcraft": 3,
+    "Collection": 3,
+    "ProductMedicine": 4,
+    "Transport": 2
+  }
+}

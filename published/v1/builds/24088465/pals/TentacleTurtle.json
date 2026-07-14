@@ -1,0 +1,23 @@
+{
+  "id": "TentacleTurtle",
+  "tribe": "TentacleTurtle",
+  "name": "Turtacle",
+  "paldexNumber": 37,
+  "rarity": 3,
+  "elements": [
+    "Water"
+  ],
+  "hp": 75,
+  "attack": 75,
+  "defense": 115,
+  "runSpeed": 320,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 2410,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 2,
+    "Mining": 1,
+    "Transport": 1
+  }
+}

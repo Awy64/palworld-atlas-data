@@ -1,0 +1,24 @@
+{
+  "id": "SnakeGirl",
+  "tribe": "SnakeGirl",
+  "name": "Venusa",
+  "paldexNumber": 178,
+  "rarity": 5,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 80,
+  "attack": 85,
+  "defense": 90,
+  "runSpeed": 450,
+  "stamina": 100,
+  "food": 6,
+  "breedingRank": 970,
+  "nocturnal": true,
+  "workSuitability": {
+    "Handcraft": 6,
+    "Collection": 6,
+    "ProductMedicine": 5,
+    "Transport": 2
+  }
+}

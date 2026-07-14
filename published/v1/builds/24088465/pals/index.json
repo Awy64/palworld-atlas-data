@@ -1,0 +1,6818 @@
+{
+  "records": [
+    {
+      "id": "SheepBall",
+      "tribe": "SheepBall",
+      "name": "Lamball",
+      "paldexNumber": 1,
+      "rarity": 1,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3050,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Transport": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "PinkCat",
+      "tribe": "PinkCat",
+      "name": "Cattiva",
+      "paldexNumber": 2,
+      "rarity": 1,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2760,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Collection": 1,
+        "Mining": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "ChickenPal",
+      "tribe": "ChickenPal",
+      "name": "Chikipi",
+      "paldexNumber": 3,
+      "rarity": 1,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "runSpeed": 375,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3080,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Carbunclo",
+      "tribe": "Carbunclo",
+      "name": "Lifmunk",
+      "paldexNumber": 4,
+      "rarity": 1,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 75,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3020,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 1,
+        "Handcraft": 1,
+        "Collection": 1,
+        "Deforest": 1,
+        "ProductMedicine": 1
+      }
+    },
+    {
+      "id": "BluePlatypus",
+      "tribe": "Blueplatypus",
+      "name": "Fuack",
+      "paldexNumber": 5,
+      "rarity": 1,
+      "elements": [
+        "Water"
+      ],
+      "hp": 60,
+      "attack": 80,
+      "defense": 60,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2980,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "Handcraft": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "BluePlatypus_Fire",
+      "tribe": "BluePlatypus_Fire",
+      "name": "Fuack Ignis",
+      "paldexNumber": 5,
+      "rarity": 2,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "hp": 60,
+      "attack": 85,
+      "defense": 60,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2300,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Watering": 2,
+        "Handcraft": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "CuteFox",
+      "tribe": "CuteFox",
+      "name": "Vixy",
+      "paldexNumber": 6,
+      "rarity": 2,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 350,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3060,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "FlyingManta",
+      "tribe": "FlyingManta",
+      "name": "Celaray",
+      "paldexNumber": 7,
+      "rarity": 3,
+      "elements": [
+        "Water"
+      ],
+      "hp": 80,
+      "attack": 70,
+      "defense": 80,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2740,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "FlyingManta_Thunder",
+      "tribe": "FlyingManta_Thunder",
+      "name": "Celaray Lux",
+      "paldexNumber": 7,
+      "rarity": 4,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "hp": 80,
+      "attack": 75,
+      "defense": 80,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2380,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "GenerateElectricity": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "WoolFox",
+      "tribe": "WoolFox",
+      "name": "Cremis",
+      "paldexNumber": 8,
+      "rarity": 1,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 75,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2890,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "MonsterFarm": 2
+      }
+    },
+    {
+      "id": "KendoFrog",
+      "tribe": "KendoFrog",
+      "name": "Croajiro",
+      "paldexNumber": 9,
+      "rarity": 4,
+      "elements": [
+        "Water"
+      ],
+      "hp": 80,
+      "attack": 100,
+      "defense": 85,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2600,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "Handcraft": 1,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "KendoFrog_Dark",
+      "tribe": "KendoFrog_Dark",
+      "name": "Croajiro Noct",
+      "paldexNumber": 9,
+      "rarity": 5,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "hp": 85,
+      "attack": 110,
+      "defense": 90,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 1860,
+      "nocturnal": true,
+      "workSuitability": {
+        "Watering": 1,
+        "Handcraft": 2,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "LeafMomonga",
+      "tribe": "LeafMomonga",
+      "name": "Herbil",
+      "paldexNumber": 10,
+      "rarity": 3,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "hp": 80,
+      "attack": 75,
+      "defense": 75,
+      "runSpeed": 350,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2630,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 1,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Ganesha",
+      "tribe": "Ganesha",
+      "name": "Teafant",
+      "paldexNumber": 11,
+      "rarity": 1,
+      "elements": [
+        "Water"
+      ],
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3070,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1
+      }
+    },
+    {
+      "id": "PlantSlime",
+      "tribe": "PlantSlime",
+      "name": "Gumoss",
+      "paldexNumber": 12,
+      "rarity": 1,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2950,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 1
+      }
+    },
+    {
+      "id": "PlantSlime_Flower",
+      "tribe": "PlantSlime",
+      "name": "Gumoss",
+      "paldexNumber": 12,
+      "rarity": 10,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2950,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 1
+      }
+    },
+    {
+      "id": "SamuraiDog",
+      "tribe": "SamuraiDog",
+      "name": "Pupperai",
+      "paldexNumber": 13,
+      "rarity": 2,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2930,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "Deforest": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "CloverFairy",
+      "tribe": "CloverFairy",
+      "name": "Clovee",
+      "paldexNumber": 14,
+      "rarity": 2,
+      "elements": [
+        "Leaf",
+        "Normal"
+      ],
+      "hp": 80,
+      "attack": 65,
+      "defense": 65,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2970,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 1,
+        "Collection": 1
+      }
+    },
+    {
+      "id": "Hedgehog",
+      "tribe": "Hedgehog",
+      "name": "Jolthog",
+      "paldexNumber": 15,
+      "rarity": 1,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 70,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3030,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 1
+      }
+    },
+    {
+      "id": "Hedgehog_Ice",
+      "tribe": "Hedgehog_Ice",
+      "name": "Jolthog Cryst",
+      "paldexNumber": 15,
+      "rarity": 2,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 70,
+      "attack": 75,
+      "defense": 80,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2850,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 1
+      }
+    },
+    {
+      "id": "NegativeKoala",
+      "tribe": "NegativeKoala",
+      "name": "Depresso",
+      "paldexNumber": 16,
+      "rarity": 1,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3000,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Mining": 1,
+        "Transport": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Penguin",
+      "tribe": "Penguin",
+      "name": "Pengullet",
+      "paldexNumber": 17,
+      "rarity": 1,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "hp": 70,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2960,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "Handcraft": 1,
+        "Cool": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Penguin_Electric",
+      "tribe": "Penguin_Electric",
+      "name": "Pengullet Lux",
+      "paldexNumber": 17,
+      "rarity": 2,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2490,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "GenerateElectricity": 2,
+        "Handcraft": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "CaptainPenguin",
+      "tribe": "CaptainPenguin",
+      "name": "Penking",
+      "paldexNumber": 18,
+      "rarity": 6,
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "hp": 95,
+      "attack": 95,
+      "defense": 95,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 2070,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Handcraft": 2,
+        "Mining": 3,
+        "Cool": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "CaptainPenguin_Black",
+      "tribe": "CaptainPenguin_Black",
+      "name": "Penking Lux",
+      "paldexNumber": 18,
+      "rarity": 7,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1850,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "GenerateElectricity": 3,
+        "Handcraft": 2,
+        "Mining": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "WizardOwl",
+      "tribe": "WizardOwl",
+      "name": "Hoocrates",
+      "paldexNumber": 19,
+      "rarity": 1,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 80,
+      "runSpeed": 380,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2940,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 1
+      }
+    },
+    {
+      "id": "Alpaca",
+      "tribe": "Alpaca",
+      "name": "Melpaca",
+      "paldexNumber": 20,
+      "rarity": 3,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 90,
+      "attack": 75,
+      "defense": 90,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2720,
+      "nocturnal": false,
+      "workSuitability": {
+        "MonsterFarm": 2
+      }
+    },
+    {
+      "id": "KingAlpaca",
+      "tribe": "KingAlpaca",
+      "name": "Kingpaca",
+      "paldexNumber": 21,
+      "rarity": 8,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 120,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 700,
+      "stamina": 170,
+      "food": 4,
+      "breedingRank": 2220,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "KingAlpaca_Ice",
+      "tribe": "KingAlpaca_Ice",
+      "name": "Kingpaca Cryst",
+      "paldexNumber": 21,
+      "rarity": 9,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 120,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 700,
+      "stamina": 170,
+      "food": 4,
+      "breedingRank": 1530,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2,
+        "Cool": 4
+      }
+    },
+    {
+      "id": "DreamDemon",
+      "tribe": "DreamDemon",
+      "name": "Daedream",
+      "paldexNumber": 22,
+      "rarity": 1,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 75,
+      "defense": 60,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2910,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Monkey",
+      "tribe": "Monkey",
+      "name": "Tanzee",
+      "paldexNumber": 23,
+      "rarity": 1,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2900,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 1,
+        "Handcraft": 1,
+        "Collection": 1,
+        "Deforest": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Monkey_Fire",
+      "tribe": "Monkey_Fire",
+      "name": "Tanzee Ignis",
+      "paldexNumber": 23,
+      "rarity": 2,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 80,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2830,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 1,
+        "Handcraft": 1,
+        "Deforest": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "NightFox",
+      "tribe": "NightFox",
+      "name": "Nox",
+      "paldexNumber": 24,
+      "rarity": 6,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 75,
+      "attack": 85,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2920,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 1
+      }
+    },
+    {
+      "id": "LavaGirl",
+      "tribe": "LavaGirl",
+      "name": "Flambelle",
+      "paldexNumber": 25,
+      "rarity": 1,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 60,
+      "attack": 70,
+      "defense": 80,
+      "runSpeed": 250,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2700,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 1,
+        "Handcraft": 1,
+        "Transport": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "FlameBambi",
+      "tribe": "FlameBambi",
+      "name": "Rooby",
+      "paldexNumber": 26,
+      "rarity": 2,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 75,
+      "attack": 70,
+      "defense": 75,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2870,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Bastet",
+      "tribe": "Bastet",
+      "name": "Mau",
+      "paldexNumber": 27,
+      "rarity": 1,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "runSpeed": 475,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3040,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Bastet_Ice",
+      "tribe": "Bastet_Ice",
+      "name": "Mau Cryst",
+      "paldexNumber": 27,
+      "rarity": 2,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 70,
+      "attack": 65,
+      "defense": 70,
+      "runSpeed": 475,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2750,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Boar",
+      "tribe": "Boar",
+      "name": "Rushoar",
+      "paldexNumber": 28,
+      "rarity": 1,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2880,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 1
+      }
+    },
+    {
+      "id": "Kitsunebi",
+      "tribe": "Kitsunebi",
+      "name": "Foxparks",
+      "paldexNumber": 29,
+      "rarity": 1,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 65,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2990,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 1
+      }
+    },
+    {
+      "id": "Kitsunebi_Ice",
+      "tribe": "Kitsunebi_Ice",
+      "name": "Foxparks Cryst",
+      "paldexNumber": 29,
+      "rarity": 1,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 65,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2500,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 2
+      }
+    },
+    {
+      "id": "NegativeOctopus",
+      "tribe": "NegativeOctopus",
+      "name": "Killamari",
+      "paldexNumber": 30,
+      "rarity": 1,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "hp": 60,
+      "attack": 60,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2770,
+      "nocturnal": true,
+      "workSuitability": {
+        "Watering": 1,
+        "Collection": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "NegativeOctopus_Neutral",
+      "tribe": "NegativeOctopus_Neutral",
+      "name": "Killamari Primo",
+      "paldexNumber": 30,
+      "rarity": 2,
+      "elements": [
+        "Normal",
+        "Water"
+      ],
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2540,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "Collection": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "CuteMole",
+      "tribe": "CuteMole",
+      "name": "Fuddler",
+      "paldexNumber": 31,
+      "rarity": 1,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 65,
+      "attack": 80,
+      "defense": 50,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2790,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Mining": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Deer",
+      "tribe": "Deer",
+      "name": "Eikthyrdeer",
+      "paldexNumber": 32,
+      "rarity": 5,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 95,
+      "attack": 80,
+      "defense": 80,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2710,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 2
+      }
+    },
+    {
+      "id": "Deer_Ground",
+      "tribe": "Deer_Ground",
+      "name": "Eikthyrdeer Terra",
+      "paldexNumber": 32,
+      "rarity": 6,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 95,
+      "attack": 80,
+      "defense": 80,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2580,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 2
+      }
+    },
+    {
+      "id": "Garm",
+      "tribe": "Garm",
+      "name": "Direhowl",
+      "paldexNumber": 33,
+      "rarity": 2,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 80,
+      "attack": 90,
+      "defense": 75,
+      "runSpeed": 800,
+      "stamina": 70,
+      "food": 2,
+      "breedingRank": 2680,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1
+      }
+    },
+    {
+      "id": "BerryGoat",
+      "tribe": "BerryGoat",
+      "name": "Caprity",
+      "paldexNumber": 34,
+      "rarity": 3,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 100,
+      "attack": 70,
+      "defense": 90,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2610,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "BerryGoat_Dark",
+      "tribe": "BerryGoat_Dark",
+      "name": "Caprity Noct",
+      "paldexNumber": 34,
+      "rarity": 3,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 75,
+      "defense": 90,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 1940,
+      "nocturnal": true,
+      "workSuitability": {
+        "Seeding": 2,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "MopBaby",
+      "tribe": "MopBaby",
+      "name": "Swee",
+      "paldexNumber": 35,
+      "rarity": 1,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "runSpeed": 250,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2840,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "Cool": 1
+      }
+    },
+    {
+      "id": "MopKing",
+      "tribe": "MopKing",
+      "name": "Sweepa",
+      "paldexNumber": 36,
+      "rarity": 6,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 100,
+      "attack": 90,
+      "defense": 90,
+      "runSpeed": 650,
+      "stamina": 120,
+      "food": 4,
+      "breedingRank": 2150,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2,
+        "Cool": 3
+      }
+    },
+    {
+      "id": "TentacleTurtle",
+      "tribe": "TentacleTurtle",
+      "name": "Turtacle",
+      "paldexNumber": 37,
+      "rarity": 3,
+      "elements": [
+        "Water"
+      ],
+      "hp": 75,
+      "attack": 75,
+      "defense": 115,
+      "runSpeed": 320,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2410,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Mining": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "TentacleTurtle_Ground",
+      "tribe": "TentacleTurtle_Ground",
+      "name": "Turtacle Terra",
+      "paldexNumber": 37,
+      "rarity": 4,
+      "elements": [
+        "Water",
+        "Earth"
+      ],
+      "hp": 85,
+      "attack": 85,
+      "defense": 125,
+      "runSpeed": 320,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1330,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Mining": 3,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "WindChimes",
+      "tribe": "WindChimes",
+      "name": "Hangyu",
+      "paldexNumber": 38,
+      "rarity": 1,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2780,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Collection": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "WindChimes_Ice",
+      "tribe": "WindChimes_Ice",
+      "name": "Hangyu Cryst",
+      "paldexNumber": 38,
+      "rarity": 2,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 80,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2510,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Collection": 2,
+        "Cool": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "SweetsSheep",
+      "tribe": "SweetsSheep",
+      "name": "Woolipop",
+      "paldexNumber": 39,
+      "rarity": 3,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 90,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2820,
+      "nocturnal": false,
+      "workSuitability": {
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "SweetsSheep_Ground",
+      "tribe": "SweetsSheep_Ground",
+      "name": "Woolipop Terra",
+      "paldexNumber": 39,
+      "rarity": 4,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 95,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2030,
+      "nocturnal": false,
+      "workSuitability": {
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "CowPal",
+      "tribe": "CowPal",
+      "name": "Mozzarina",
+      "paldexNumber": 40,
+      "rarity": 2,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 90,
+      "attack": 50,
+      "defense": 80,
+      "runSpeed": 580,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2800,
+      "nocturnal": false,
+      "workSuitability": {
+        "MonsterFarm": 2
+      }
+    },
+    {
+      "id": "BlueDragon",
+      "tribe": "BlueDragon",
+      "name": "Azurobe",
+      "paldexNumber": 41,
+      "rarity": 7,
+      "elements": [
+        "Water",
+        "Dragon"
+      ],
+      "hp": 110,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 160,
+      "food": 5,
+      "breedingRank": 1830,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 4
+      }
+    },
+    {
+      "id": "BlueDragon_Ice",
+      "tribe": "BlueDragon_Ice",
+      "name": "Azurobe Cryst",
+      "paldexNumber": 41,
+      "rarity": 8,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "hp": 115,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 600,
+      "stamina": 160,
+      "food": 5,
+      "breedingRank": 1220,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 4
+      }
+    },
+    {
+      "id": "ElecCat",
+      "tribe": "ElecCat",
+      "name": "Sparkit",
+      "paldexNumber": 42,
+      "rarity": 1,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 60,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 350,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 3010,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 1,
+        "Handcraft": 1,
+        "Transport": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Kelpie",
+      "tribe": "Kelpie",
+      "name": "Kelpsea",
+      "paldexNumber": 43,
+      "rarity": 1,
+      "elements": [
+        "Water"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2810,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "Kelpie_Fire",
+      "tribe": "Kelpie_Fire",
+      "name": "Kelpsea Ignis",
+      "paldexNumber": 43,
+      "rarity": 2,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2470,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "PinkRabbit",
+      "tribe": "PinkRabbit",
+      "name": "Ribbuny",
+      "paldexNumber": 44,
+      "rarity": 1,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 75,
+      "attack": 65,
+      "defense": 70,
+      "runSpeed": 245,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2860,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "PinkRabbit_Grass",
+      "tribe": "PinkRabbit_Grass",
+      "name": "Ribbuny Botan",
+      "paldexNumber": 44,
+      "rarity": 1,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 80,
+      "attack": 65,
+      "defense": 70,
+      "runSpeed": 245,
+      "stamina": 100,
+      "food": 1,
+      "breedingRank": 2460,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Handcraft": 2,
+        "Collection": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "JellyfishFairy",
+      "tribe": "JellyfishFairy",
+      "name": "Jelliette",
+      "paldexNumber": 45,
+      "rarity": 3,
+      "elements": [
+        "Water"
+      ],
+      "hp": 75,
+      "attack": 90,
+      "defense": 70,
+      "runSpeed": 240,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2650,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Handcraft": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "JellyfishGhost",
+      "tribe": "JellyfishGhost",
+      "name": "Jellroy",
+      "paldexNumber": 46,
+      "rarity": 3,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2590,
+      "nocturnal": true,
+      "workSuitability": {
+        "Watering": 2,
+        "Handcraft": 1,
+        "ProductMedicine": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "ClioneTwins",
+      "tribe": "ClioneTwins",
+      "name": "Amione",
+      "paldexNumber": 47,
+      "rarity": 2,
+      "elements": [
+        "Water"
+      ],
+      "hp": 65,
+      "attack": 70,
+      "defense": 65,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2520,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 1,
+        "Handcraft": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "OctopusGirl",
+      "tribe": "OctopusGirl",
+      "name": "Gloopie",
+      "paldexNumber": 48,
+      "rarity": 5,
+      "elements": [
+        "Water",
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 85,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2530,
+      "nocturnal": true,
+      "workSuitability": {
+        "Watering": 2,
+        "Handcraft": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "OctopusGirl_Neutral",
+      "tribe": "OctopusGirl_Neutral",
+      "name": "Gloopie Primo",
+      "paldexNumber": 48,
+      "rarity": 6,
+      "elements": [
+        "Water",
+        "Normal"
+      ],
+      "hp": 75,
+      "attack": 85,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1630,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Handcraft": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "Eagle",
+      "tribe": "Eagle",
+      "name": "Galeclaw",
+      "paldexNumber": 49,
+      "rarity": 2,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 75,
+      "attack": 85,
+      "defense": 60,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2570,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "GhostBlackCat",
+      "tribe": "GhostBlackCat",
+      "name": "Wispaw",
+      "paldexNumber": 50,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 85,
+      "attack": 95,
+      "defense": 70,
+      "runSpeed": 360,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 2250,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Deforest": 1,
+        "ProductMedicine": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "HawkBird",
+      "tribe": "HawkBird",
+      "name": "Nitewing",
+      "paldexNumber": 51,
+      "rarity": 3,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 100,
+      "attack": 95,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2560,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "CatBat",
+      "tribe": "CatBat",
+      "name": "Tombat",
+      "paldexNumber": 52,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 95,
+      "attack": 95,
+      "defense": 80,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2340,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 2,
+        "Mining": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "ColorfulBird",
+      "tribe": "ColorfulBird",
+      "name": "Tocotoco",
+      "paldexNumber": 53,
+      "rarity": 1,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 60,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2730,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1
+      }
+    },
+    {
+      "id": "Kirin",
+      "tribe": "Kirin",
+      "name": "Univolt",
+      "paldexNumber": 54,
+      "rarity": 5,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 80,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 720,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2270,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 3,
+        "Deforest": 1
+      }
+    },
+    {
+      "id": "Kirin_Ice",
+      "tribe": "Kirin_Ice",
+      "name": "Univolt Cryst",
+      "paldexNumber": 54,
+      "rarity": 6,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 80,
+      "attack": 105,
+      "defense": 110,
+      "runSpeed": 720,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 540,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 3,
+        "Cool": 6
+      }
+    },
+    {
+      "id": "SharkKid",
+      "tribe": "SharkKid",
+      "name": "Gobfin",
+      "paldexNumber": 55,
+      "rarity": 2,
+      "elements": [
+        "Water"
+      ],
+      "hp": 90,
+      "attack": 90,
+      "defense": 75,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2550,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Handcraft": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "SharkKid_Fire",
+      "tribe": "SharkKid_Fire",
+      "name": "Gobfin Ignis",
+      "paldexNumber": 55,
+      "rarity": 3,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 90,
+      "attack": 90,
+      "defense": 75,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2430,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Handcraft": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Werewolf",
+      "tribe": "Werewolf",
+      "name": "Loupmoon",
+      "paldexNumber": 56,
+      "rarity": 3,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 80,
+      "attack": 100,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2110,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 2
+      }
+    },
+    {
+      "id": "Werewolf_Ice",
+      "tribe": "Werewolf_Ice",
+      "name": "Loupmoon Cryst",
+      "paldexNumber": 56,
+      "rarity": 3,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 80,
+      "attack": 105,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1290,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 4,
+        "Cool": 4
+      }
+    },
+    {
+      "id": "DarkCrow",
+      "tribe": "DarkCrow",
+      "name": "Cawgnito",
+      "paldexNumber": 57,
+      "rarity": 3,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 75,
+      "attack": 95,
+      "defense": 80,
+      "runSpeed": 920,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2370,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 2,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "FlameBuffalo",
+      "tribe": "FlameBuffalo",
+      "name": "Arsox",
+      "paldexNumber": 58,
+      "rarity": 4,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 85,
+      "attack": 95,
+      "defense": 95,
+      "runSpeed": 700,
+      "stamina": 120,
+      "food": 3,
+      "breedingRank": 2320,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Deforest": 2
+      }
+    },
+    {
+      "id": "FluffyBird",
+      "tribe": "FluffyBird",
+      "name": "Muffly",
+      "paldexNumber": 59,
+      "rarity": 2,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 60,
+      "attack": 80,
+      "defense": 55,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2480,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "LittleBriarRose",
+      "tribe": "LittleBriarRose",
+      "name": "Bristla",
+      "paldexNumber": 60,
+      "rarity": 1,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2690,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Handcraft": 2,
+        "Collection": 2,
+        "ProductMedicine": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "CuteButterfly",
+      "tribe": "CuteButterfly",
+      "name": "Cinnamoth",
+      "paldexNumber": 61,
+      "rarity": 4,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 70,
+      "attack": 80,
+      "defense": 80,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2620,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Collection": 2,
+        "ProductMedicine": 2
+      }
+    },
+    {
+      "id": "ElecPomeranian",
+      "tribe": "ElecPomeranian",
+      "name": "Puffolt",
+      "paldexNumber": 62,
+      "rarity": 2,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 200,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2360,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "FairyDragon",
+      "tribe": "FairyDragon",
+      "name": "Elphidran",
+      "paldexNumber": 63,
+      "rarity": 7,
+      "elements": [
+        "Dragon"
+      ],
+      "hp": 110,
+      "attack": 80,
+      "defense": 90,
+      "runSpeed": 630,
+      "stamina": 130,
+      "food": 3,
+      "breedingRank": 2280,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "FairyDragon_Water",
+      "tribe": "FairyDragon_Water",
+      "name": "Elphidran Aqua",
+      "paldexNumber": 63,
+      "rarity": 8,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "hp": 115,
+      "attack": 80,
+      "defense": 95,
+      "runSpeed": 630,
+      "stamina": 130,
+      "food": 3,
+      "breedingRank": 1640,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 4,
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "BirdDragon",
+      "tribe": "BirdDragon",
+      "name": "Vanwyrm",
+      "paldexNumber": 64,
+      "rarity": 5,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 115,
+      "defense": 90,
+      "runSpeed": 700,
+      "stamina": 150,
+      "food": 5,
+      "breedingRank": 1650,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "BirdDragon_Ice",
+      "tribe": "BirdDragon_Ice",
+      "name": "Vanwyrm Cryst",
+      "paldexNumber": 64,
+      "rarity": 5,
+      "elements": [
+        "Ice",
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 120,
+      "defense": 95,
+      "runSpeed": 700,
+      "stamina": 150,
+      "food": 5,
+      "breedingRank": 1430,
+      "nocturnal": true,
+      "workSuitability": {
+        "Cool": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "CatVampire",
+      "tribe": "CatVampire",
+      "name": "Felbat",
+      "paldexNumber": 65,
+      "rarity": 6,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 105,
+      "defense": 110,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 1570,
+      "nocturnal": true,
+      "workSuitability": {
+        "ProductMedicine": 3
+      }
+    },
+    {
+      "id": "VioletFairy",
+      "tribe": "VioletFairy",
+      "name": "Vaelet",
+      "paldexNumber": 66,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 100,
+      "attack": 100,
+      "defense": 120,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1480,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 3,
+        "Collection": 3,
+        "ProductMedicine": 3,
+        "Transport": 2,
+        "MonsterFarm": 2
+      }
+    },
+    {
+      "id": "SoldierBee",
+      "tribe": "SoldierBee",
+      "name": "Beegarde",
+      "paldexNumber": 67,
+      "rarity": 4,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 80,
+      "attack": 90,
+      "defense": 90,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2350,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Handcraft": 2,
+        "Collection": 3,
+        "Deforest": 2,
+        "ProductMedicine": 2,
+        "Transport": 2,
+        "MonsterFarm": 3
+      }
+    },
+    {
+      "id": "QueenBee",
+      "tribe": "QueenBee",
+      "name": "Elizabee",
+      "paldexNumber": 68,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 90,
+      "attack": 105,
+      "defense": 100,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1790,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 4,
+        "Handcraft": 4,
+        "Collection": 4,
+        "Deforest": 3,
+        "ProductMedicine": 4
+      }
+    },
+    {
+      "id": "PinkLizard",
+      "tribe": "PinkLizard",
+      "name": "Lovander",
+      "paldexNumber": 69,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 120,
+      "attack": 70,
+      "defense": 70,
+      "runSpeed": 750,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 2090,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Mining": 2,
+        "ProductMedicine": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "NaughtyCat",
+      "tribe": "NaughtyCat",
+      "name": "Grintale",
+      "paldexNumber": 70,
+      "rarity": 6,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 110,
+      "attack": 80,
+      "defense": 80,
+      "runSpeed": 650,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 2120,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 3
+      }
+    },
+    {
+      "id": "PurpleSpider",
+      "tribe": "PurpleSpider",
+      "name": "Tarantriss",
+      "paldexNumber": 71,
+      "rarity": 3,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 110,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 640,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1730,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Collection": 3,
+        "ProductMedicine": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "IceSeal",
+      "tribe": "IceSeal",
+      "name": "Polapup",
+      "paldexNumber": 72,
+      "rarity": 5,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 250,
+      "stamina": 120,
+      "food": 4,
+      "breedingRank": 1660,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 3,
+        "Cool": 4
+      }
+    },
+    {
+      "id": "IceSeal_Ground",
+      "tribe": "IceSeal_Ground",
+      "name": "Polapup Terra",
+      "paldexNumber": 72,
+      "rarity": 6,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 110,
+      "runSpeed": 250,
+      "stamina": 120,
+      "food": 4,
+      "breedingRank": 1100,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 4,
+        "Cool": 4
+      }
+    },
+    {
+      "id": "LizardMan",
+      "tribe": "LizardMan",
+      "name": "Leezpunk",
+      "paldexNumber": 73,
+      "rarity": 2,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2670,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "LizardMan_Oilrig",
+      "tribe": "LizardMan",
+      "name": "Leezpunk",
+      "paldexNumber": 73,
+      "rarity": 2,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "LizardMan_Fire",
+      "tribe": "LizardMan_Fire",
+      "name": "Leezpunk Ignis",
+      "paldexNumber": 73,
+      "rarity": 3,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2640,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Handcraft": 2,
+        "Collection": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "Gorilla",
+      "tribe": "Gorilla",
+      "name": "Gorirat",
+      "paldexNumber": 74,
+      "rarity": 5,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 90,
+      "attack": 95,
+      "defense": 90,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2140,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Deforest": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "Gorilla_Ground",
+      "tribe": "Gorilla_Ground",
+      "name": "Gorirat Terra",
+      "paldexNumber": 74,
+      "rarity": 5,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1880,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Mining": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "Serpent",
+      "tribe": "Serpent",
+      "name": "Surfent",
+      "paldexNumber": 75,
+      "rarity": 4,
+      "elements": [
+        "Water"
+      ],
+      "hp": 90,
+      "attack": 90,
+      "defense": 80,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2440,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 3,
+        "MonsterFarm": 2
+      }
+    },
+    {
+      "id": "Serpent_Ground",
+      "tribe": "Serpent_Ground",
+      "name": "Surfent Terra",
+      "paldexNumber": 75,
+      "rarity": 5,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1840,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 3
+      }
+    },
+    {
+      "id": "RobinHood",
+      "tribe": "RobinHood",
+      "name": "Robinquill",
+      "paldexNumber": 76,
+      "rarity": 5,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 90,
+      "attack": 105,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2260,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Handcraft": 3,
+        "Collection": 3,
+        "Deforest": 2,
+        "ProductMedicine": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "RobinHood_Ground",
+      "tribe": "RobinHood_Ground",
+      "name": "Robinquill Terra",
+      "paldexNumber": 76,
+      "rarity": 6,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "hp": 90,
+      "attack": 105,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2050,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Collection": 3,
+        "Deforest": 2,
+        "ProductMedicine": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "FlowerRabbit",
+      "tribe": "FlowerRabbit",
+      "name": "Flopie",
+      "paldexNumber": 77,
+      "rarity": 1,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 75,
+      "attack": 65,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2660,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Handcraft": 2,
+        "Collection": 2,
+        "ProductMedicine": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "FoxMage",
+      "tribe": "FoxMage",
+      "name": "Wixen",
+      "paldexNumber": 78,
+      "rarity": 6,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "runSpeed": 440,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 2080,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Handcraft": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "FoxMage_Dark",
+      "tribe": "FoxMage_Dark",
+      "name": "Wixen Noct",
+      "paldexNumber": 78,
+      "rarity": 6,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 110,
+      "defense": 85,
+      "runSpeed": 440,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1490,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Handcraft": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "CatMage",
+      "tribe": "CatMage",
+      "name": "Katress",
+      "paldexNumber": 79,
+      "rarity": 6,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 105,
+      "defense": 90,
+      "runSpeed": 440,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 2040,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 3,
+        "ProductMedicine": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "CatMage_Fire",
+      "tribe": "CatMage_Fire",
+      "name": "Katress Ignis",
+      "paldexNumber": 79,
+      "rarity": 6,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 90,
+      "runSpeed": 440,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1800,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Handcraft": 3,
+        "ProductMedicine": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "HadesBird",
+      "tribe": "HadesBird",
+      "name": "Helzephyr",
+      "paldexNumber": 80,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 125,
+      "defense": 100,
+      "runSpeed": 700,
+      "stamina": 170,
+      "food": 7,
+      "breedingRank": 1130,
+      "nocturnal": true,
+      "workSuitability": {
+        "Transport": 4
+      }
+    },
+    {
+      "id": "HadesBird_Oilrig",
+      "tribe": "HadesBird",
+      "name": "Helzephyr",
+      "paldexNumber": 80,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 125,
+      "defense": 100,
+      "runSpeed": 700,
+      "stamina": 170,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": true,
+      "workSuitability": {
+        "Transport": 3
+      }
+    },
+    {
+      "id": "HadesBird_Electric",
+      "tribe": "HadesBird_Electric",
+      "name": "Helzephyr Lux",
+      "paldexNumber": 80,
+      "rarity": 8,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "hp": 105,
+      "attack": 125,
+      "defense": 100,
+      "runSpeed": 700,
+      "stamina": 170,
+      "food": 7,
+      "breedingRank": 960,
+      "nocturnal": true,
+      "workSuitability": {
+        "GenerateElectricity": 4,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "GrassMinotaur",
+      "tribe": "GrassMinotaur",
+      "name": "Elgrove",
+      "paldexNumber": 81,
+      "rarity": 6,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 110,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 2020,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Collection": 2,
+        "Deforest": 3,
+        "Mining": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "GrassMinotaur_Ice",
+      "tribe": "GrassMinotaur_Ice",
+      "name": "Elgrove Cryst",
+      "paldexNumber": 81,
+      "rarity": 7,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 120,
+      "attack": 100,
+      "defense": 105,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 440,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 3,
+        "Mining": 3,
+        "Cool": 5,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "Mutant",
+      "tribe": "Mutant",
+      "name": "Lunaris",
+      "paldexNumber": 82,
+      "rarity": 6,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 2010,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 4,
+        "Collection": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "FengyunDeeper",
+      "tribe": "FengyunDeeper",
+      "name": "Fenglope",
+      "paldexNumber": 83,
+      "rarity": 3,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 110,
+      "attack": 110,
+      "defense": 90,
+      "runSpeed": 750,
+      "stamina": 140,
+      "food": 5,
+      "breedingRank": 1960,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "FengyunDeeper_Electric",
+      "tribe": "FengyunDeeper_Electric",
+      "name": "Fenglope Lux",
+      "paldexNumber": 83,
+      "rarity": 3,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 110,
+      "attack": 115,
+      "defense": 90,
+      "runSpeed": 750,
+      "stamina": 140,
+      "food": 5,
+      "breedingRank": 900,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 5,
+        "Deforest": 4
+      }
+    },
+    {
+      "id": "FlowerDinosaur",
+      "tribe": "FlowerDinosaur",
+      "name": "Dinossom",
+      "paldexNumber": 84,
+      "rarity": 6,
+      "elements": [
+        "Leaf",
+        "Dragon"
+      ],
+      "hp": 110,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 700,
+      "stamina": 130,
+      "food": 4,
+      "breedingRank": 2100,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "FlowerDinosaur_Electric",
+      "tribe": "FlowerDinosaur_Electric",
+      "name": "Dinossom Lux",
+      "paldexNumber": 84,
+      "rarity": 7,
+      "elements": [
+        "Electricity",
+        "Dragon"
+      ],
+      "hp": 110,
+      "attack": 90,
+      "defense": 90,
+      "runSpeed": 700,
+      "stamina": 130,
+      "food": 4,
+      "breedingRank": 1890,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 3,
+        "Deforest": 4
+      }
+    },
+    {
+      "id": "Ronin",
+      "tribe": "Ronin",
+      "name": "Bushi",
+      "paldexNumber": 85,
+      "rarity": 7,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 80,
+      "attack": 125,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1560,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Handcraft": 2,
+        "Collection": 1,
+        "Deforest": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "Ronin_Dark",
+      "tribe": "Ronin_Dark",
+      "name": "Bushi Noct",
+      "paldexNumber": 85,
+      "rarity": 7,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "hp": 80,
+      "attack": 130,
+      "defense": 80,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 840,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Handcraft": 2,
+        "Collection": 1,
+        "Deforest": 5,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "IceCrocodile",
+      "tribe": "IceCrocodile",
+      "name": "Munchill",
+      "paldexNumber": 86,
+      "rarity": 3,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2130,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Cool": 3,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "GrassMammoth",
+      "tribe": "GrassMammoth",
+      "name": "Mammorest",
+      "paldexNumber": 87,
+      "rarity": 8,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "hp": 150,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 600,
+      "stamina": 180,
+      "food": 6,
+      "breedingRank": 1340,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 4,
+        "Deforest": 4,
+        "Mining": 4
+      }
+    },
+    {
+      "id": "GrassMammoth_Ice",
+      "tribe": "GrassMammoth_Ice",
+      "name": "Mammorest Cryst",
+      "paldexNumber": 87,
+      "rarity": 9,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "hp": 150,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 600,
+      "stamina": 180,
+      "food": 6,
+      "breedingRank": 1070,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 5,
+        "Mining": 4,
+        "Cool": 5
+      }
+    },
+    {
+      "id": "StuffedShark",
+      "tribe": "StuffedShark",
+      "name": "Finsider",
+      "paldexNumber": 88,
+      "rarity": 3,
+      "elements": [
+        "Water"
+      ],
+      "hp": 75,
+      "attack": 85,
+      "defense": 80,
+      "runSpeed": 250,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2450,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "StuffedShark_Fire",
+      "tribe": "StuffedShark_Fire",
+      "name": "Finsider Ignis",
+      "paldexNumber": 88,
+      "rarity": 4,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "hp": 75,
+      "attack": 90,
+      "defense": 80,
+      "runSpeed": 250,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2240,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 2,
+        "Watering": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "FlowerDoll",
+      "tribe": "FlowerDoll",
+      "name": "Petallia",
+      "paldexNumber": 89,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 100,
+      "attack": 95,
+      "defense": 100,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1720,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 4,
+        "Handcraft": 3,
+        "Collection": 3,
+        "ProductMedicine": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "FlowerDoll_Fire",
+      "tribe": "FlowerDoll_Fire",
+      "name": "Petallia Ignis",
+      "paldexNumber": 89,
+      "rarity": 9,
+      "elements": [
+        "Leaf",
+        "Fire"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 100,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 820,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Handcraft": 3,
+        "Collection": 3,
+        "ProductMedicine": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "PandaGirl",
+      "tribe": "PandaGirl",
+      "name": "Leafan",
+      "paldexNumber": 90,
+      "rarity": 7,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 100,
+      "attack": 115,
+      "defense": 95,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 1410,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 3,
+        "Collection": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "Baphomet",
+      "tribe": "Baphomet",
+      "name": "Incineram",
+      "paldexNumber": 91,
+      "rarity": 4,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "hp": 95,
+      "attack": 100,
+      "defense": 85,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1470,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Handcraft": 2,
+        "Mining": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "Baphomet_Dark",
+      "tribe": "Baphomet_Dark",
+      "name": "Incineram Noct",
+      "paldexNumber": 91,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 85,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1310,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Mining": 4,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "Baphomet_Dark_Oilrig",
+      "tribe": "Baphomet_Dark",
+      "name": "Incineram Noct",
+      "paldexNumber": 91,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 85,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Mining": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "RaijinDaughter",
+      "tribe": "RaijinDaughter",
+      "name": "Dazzi",
+      "paldexNumber": 92,
+      "rarity": 2,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2400,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 3,
+        "Handcraft": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "RaijinDaughter_Water",
+      "tribe": "RaijinDaughter_Water",
+      "name": "Dazzi Noct",
+      "paldexNumber": 92,
+      "rarity": 2,
+      "elements": [
+        "Dark",
+        "Electricity"
+      ],
+      "hp": 70,
+      "attack": 80,
+      "defense": 75,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 1910,
+      "nocturnal": true,
+      "workSuitability": {
+        "GenerateElectricity": 1,
+        "Handcraft": 1,
+        "ProductMedicine": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "FireKirin",
+      "tribe": "FireKirin",
+      "name": "Pyrin",
+      "paldexNumber": 93,
+      "rarity": 6,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 100,
+      "attack": 95,
+      "defense": 90,
+      "runSpeed": 850,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1980,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Deforest": 2
+      }
+    },
+    {
+      "id": "FireKirin_Dark",
+      "tribe": "FireKirin_Dark",
+      "name": "Pyrin Noct",
+      "paldexNumber": 93,
+      "rarity": 7,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 95,
+      "defense": 90,
+      "runSpeed": 850,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1870,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "LazyDragon",
+      "tribe": "LazyDragon",
+      "name": "Relaxaurus",
+      "paldexNumber": 94,
+      "rarity": 8,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "hp": 120,
+      "attack": 115,
+      "defense": 110,
+      "runSpeed": 650,
+      "stamina": 200,
+      "food": 7,
+      "breedingRank": 1090,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "LazyDragon_Electric",
+      "tribe": "LazyDragon_Electric",
+      "name": "Relaxaurus Lux",
+      "paldexNumber": 94,
+      "rarity": 9,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "hp": 120,
+      "attack": 120,
+      "defense": 110,
+      "runSpeed": 650,
+      "stamina": 200,
+      "food": 7,
+      "breedingRank": 770,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 4,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "IceFox",
+      "tribe": "IceFox",
+      "name": "Foxcicle",
+      "paldexNumber": 95,
+      "rarity": 5,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 90,
+      "attack": 95,
+      "defense": 105,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1970,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 4,
+        "MonsterFarm": 3
+      }
+    },
+    {
+      "id": "ThunderBird",
+      "tribe": "ThunderBird",
+      "name": "Beakon",
+      "paldexNumber": 96,
+      "rarity": 6,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 105,
+      "attack": 115,
+      "defense": 80,
+      "runSpeed": 750,
+      "stamina": 160,
+      "food": 5,
+      "breedingRank": 1690,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 4,
+        "Collection": 2,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "ThunderBird_Ice",
+      "tribe": "ThunderBird_Ice",
+      "name": "Beakon Cryst",
+      "paldexNumber": 96,
+      "rarity": 7,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 105,
+      "attack": 115,
+      "defense": 85,
+      "runSpeed": 750,
+      "stamina": 160,
+      "food": 5,
+      "breedingRank": 580,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2,
+        "Cool": 5,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "GhostAnglerfish",
+      "tribe": "GhostAnglerfish",
+      "name": "Ghangler",
+      "paldexNumber": 97,
+      "rarity": 5,
+      "elements": [
+        "Dark",
+        "Water"
+      ],
+      "hp": 90,
+      "attack": 125,
+      "defense": 105,
+      "runSpeed": 500,
+      "stamina": 320,
+      "food": 7,
+      "breedingRank": 880,
+      "nocturnal": true,
+      "workSuitability": {
+        "Watering": 5,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "GhostAnglerfish_Fire",
+      "tribe": "GhostAnglerfish_Fire",
+      "name": "Ghangler Ignis",
+      "paldexNumber": 97,
+      "rarity": 6,
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "hp": 90,
+      "attack": 130,
+      "defense": 105,
+      "runSpeed": 500,
+      "stamina": 320,
+      "food": 7,
+      "breedingRank": 720,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Watering": 5,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "ThunderDog",
+      "tribe": "ThunderDog",
+      "name": "Rayhound",
+      "paldexNumber": 98,
+      "rarity": 5,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 90,
+      "attack": 100,
+      "defense": 80,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1920,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 4
+      }
+    },
+    {
+      "id": "ThunderDog_Ice",
+      "tribe": "ThunderDog_Ice",
+      "name": "Rayhound Cryst",
+      "paldexNumber": 98,
+      "rarity": 6,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 90,
+      "attack": 105,
+      "defense": 80,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1600,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 3
+      }
+    },
+    {
+      "id": "DarkScorpion",
+      "tribe": "DarkScorpion",
+      "name": "Menasting",
+      "paldexNumber": 99,
+      "rarity": 9,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "hp": 100,
+      "attack": 100,
+      "defense": 130,
+      "runSpeed": 1000,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1120,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 3,
+        "Mining": 5
+      }
+    },
+    {
+      "id": "DarkScorpion_Ground",
+      "tribe": "DarkScorpion_Ground",
+      "name": "Menasting Terra",
+      "paldexNumber": 99,
+      "rarity": 10,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 100,
+      "attack": 105,
+      "defense": 130,
+      "runSpeed": 1000,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 640,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 3,
+        "Mining": 6
+      }
+    },
+    {
+      "id": "CactusDoll",
+      "tribe": "CactusDoll",
+      "name": "Needoll",
+      "paldexNumber": 100,
+      "rarity": 2,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 75,
+      "attack": 85,
+      "defense": 70,
+      "runSpeed": 525,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 2420,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Collection": 3,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "CactusDoll_Dark",
+      "tribe": "CactusDoll_Dark",
+      "name": "Needoll Noct",
+      "paldexNumber": 100,
+      "rarity": 3,
+      "elements": [
+        "Dark",
+        "Leaf"
+      ],
+      "hp": 75,
+      "attack": 90,
+      "defense": 70,
+      "runSpeed": 525,
+      "stamina": 100,
+      "food": 2,
+      "breedingRank": 1580,
+      "nocturnal": true,
+      "workSuitability": {
+        "Seeding": 3,
+        "Collection": 3,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "IceDeer",
+      "tribe": "IceDeer",
+      "name": "Reindrix",
+      "paldexNumber": 101,
+      "rarity": 4,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 100,
+      "attack": 85,
+      "defense": 110,
+      "runSpeed": 700,
+      "stamina": 140,
+      "food": 4,
+      "breedingRank": 1930,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 3,
+        "Cool": 3
+      }
+    },
+    {
+      "id": "GrassPanda",
+      "tribe": "GrassPanda",
+      "name": "Mossanda",
+      "paldexNumber": 102,
+      "rarity": 6,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 100,
+      "attack": 90,
+      "defense": 90,
+      "runSpeed": 600,
+      "stamina": 130,
+      "food": 4,
+      "breedingRank": 2060,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 2,
+        "Deforest": 4,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "GrassPanda_Electric",
+      "tribe": "GrassPanda_Electric",
+      "name": "Mossanda Lux",
+      "paldexNumber": 102,
+      "rarity": 7,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 130,
+      "food": 4,
+      "breedingRank": 1440,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 4,
+        "Handcraft": 3,
+        "Deforest": 4,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "WeaselDragon",
+      "tribe": "WeaselDragon",
+      "name": "Chillet",
+      "paldexNumber": 103,
+      "rarity": 4,
+      "elements": [
+        "Ice",
+        "Dragon"
+      ],
+      "hp": 90,
+      "attack": 80,
+      "defense": 80,
+      "runSpeed": 750,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2330,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "Cool": 2
+      }
+    },
+    {
+      "id": "WeaselDragon_Fire",
+      "tribe": "WeaselDragon_Fire",
+      "name": "Chillet Ignis",
+      "paldexNumber": 103,
+      "rarity": 5,
+      "elements": [
+        "Fire",
+        "Dragon"
+      ],
+      "hp": 90,
+      "attack": 85,
+      "defense": 80,
+      "runSpeed": 750,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1950,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Collection": 3
+      }
+    },
+    {
+      "id": "RedArmorBird",
+      "tribe": "RedArmorBird",
+      "name": "Ragnahawk",
+      "paldexNumber": 104,
+      "rarity": 7,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 120,
+      "runSpeed": 800,
+      "stamina": 150,
+      "food": 7,
+      "breedingRank": 1050,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "VolcanoDragon",
+      "tribe": "VolcanoDragon",
+      "name": "Moldron",
+      "paldexNumber": 105,
+      "rarity": 7,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "hp": 110,
+      "attack": 125,
+      "defense": 115,
+      "runSpeed": 650,
+      "stamina": 270,
+      "food": 8,
+      "breedingRank": 750,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Mining": 5
+      }
+    },
+    {
+      "id": "VolcanoDragon_Ice",
+      "tribe": "VolcanoDragon_Ice",
+      "name": "Moldron Cryst",
+      "paldexNumber": 105,
+      "rarity": 8,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "hp": 110,
+      "attack": 125,
+      "defense": 120,
+      "runSpeed": 650,
+      "stamina": 270,
+      "food": 8,
+      "breedingRank": 380,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 5,
+        "Cool": 5
+      }
+    },
+    {
+      "id": "TropicalOstrich",
+      "tribe": "TropicalOstrich",
+      "name": "Palumba",
+      "paldexNumber": 106,
+      "rarity": 6,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 105,
+      "attack": 110,
+      "defense": 115,
+      "runSpeed": 550,
+      "stamina": 180,
+      "food": 6,
+      "breedingRank": 1240,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 4,
+        "Collection": 4,
+        "Mining": 5
+      }
+    },
+    {
+      "id": "DrillGame",
+      "tribe": "DrillGame",
+      "name": "Digtoise",
+      "paldexNumber": 107,
+      "rarity": 5,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 80,
+      "attack": 95,
+      "defense": 120,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1550,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 4
+      }
+    },
+    {
+      "id": "SakuraSaurus",
+      "tribe": "SakuraSaurus",
+      "name": "Broncherry",
+      "paldexNumber": 108,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 120,
+      "attack": 90,
+      "defense": 100,
+      "runSpeed": 550,
+      "stamina": 150,
+      "food": 6,
+      "breedingRank": 1380,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 5
+      }
+    },
+    {
+      "id": "SakuraSaurus_Water",
+      "tribe": "SakuraSaurus_Water",
+      "name": "Broncherry Aqua",
+      "paldexNumber": 108,
+      "rarity": 8,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "hp": 120,
+      "attack": 95,
+      "defense": 100,
+      "runSpeed": 550,
+      "stamina": 150,
+      "food": 6,
+      "breedingRank": 1080,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 5
+      }
+    },
+    {
+      "id": "LazyCatfish",
+      "tribe": "LazyCatfish",
+      "name": "Dumud",
+      "paldexNumber": 109,
+      "rarity": 4,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "hp": 100,
+      "attack": 70,
+      "defense": 95,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2290,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Mining": 2,
+        "Transport": 1,
+        "MonsterFarm": 1
+      }
+    },
+    {
+      "id": "LazyCatfish_Gold",
+      "tribe": "LazyCatfish_Gold",
+      "name": "Dumud Gild",
+      "paldexNumber": 109,
+      "rarity": 5,
+      "elements": [
+        "Earth",
+        "Water"
+      ],
+      "hp": 105,
+      "attack": 75,
+      "defense": 100,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1620,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 2,
+        "Mining": 2,
+        "Transport": 1,
+        "MonsterFarm": 4
+      }
+    },
+    {
+      "id": "Plesiosaur",
+      "tribe": "Plesiosaur",
+      "name": "Braloha",
+      "paldexNumber": 110,
+      "rarity": 8,
+      "elements": [
+        "Leaf",
+        "Earth"
+      ],
+      "hp": 130,
+      "attack": 95,
+      "defense": 120,
+      "runSpeed": 600,
+      "stamina": 270,
+      "food": 7,
+      "breedingRank": 1030,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 5,
+        "Collection": 5,
+        "Mining": 3
+      }
+    },
+    {
+      "id": "AmaterasuWolf",
+      "tribe": "AmaterasuWolf",
+      "name": "Kitsun",
+      "paldexNumber": 111,
+      "rarity": 6,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 100,
+      "attack": 115,
+      "defense": 100,
+      "runSpeed": 700,
+      "stamina": 140,
+      "food": 5,
+      "breedingRank": 1670,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 3
+      }
+    },
+    {
+      "id": "AmaterasuWolf_Dark",
+      "tribe": "AmaterasuWolf_Dark",
+      "name": "Kitsun Noct",
+      "paldexNumber": 111,
+      "rarity": 6,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 115,
+      "defense": 105,
+      "runSpeed": 700,
+      "stamina": 140,
+      "food": 5,
+      "breedingRank": 800,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 4
+      }
+    },
+    {
+      "id": "Manticore",
+      "tribe": "Manticore",
+      "name": "Blazehowl",
+      "paldexNumber": 112,
+      "rarity": 7,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 110,
+      "defense": 80,
+      "runSpeed": 800,
+      "stamina": 150,
+      "food": 6,
+      "breedingRank": 1360,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "Manticore_Dark",
+      "tribe": "Manticore_Dark",
+      "name": "Blazehowl Noct",
+      "paldexNumber": 112,
+      "rarity": 8,
+      "elements": [
+        "Fire",
+        "Dark"
+      ],
+      "hp": 105,
+      "attack": 115,
+      "defense": 80,
+      "runSpeed": 800,
+      "stamina": 150,
+      "food": 6,
+      "breedingRank": 1270,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "HerculesBeetle",
+      "tribe": "HerculesBeetle",
+      "name": "Warsect",
+      "paldexNumber": 113,
+      "rarity": 8,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "hp": 120,
+      "attack": 100,
+      "defense": 120,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1280,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 3,
+        "Deforest": 4,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "HerculesBeetle_Ground",
+      "tribe": "HerculesBeetle_Ground",
+      "name": "Warsect Terra",
+      "paldexNumber": 113,
+      "rarity": 9,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 120,
+      "attack": 105,
+      "defense": 120,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 630,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Mining": 5,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "SnowPeafowl",
+      "tribe": "SnowPeafowl",
+      "name": "Frostplume",
+      "paldexNumber": 114,
+      "rarity": 4,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 110,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 860,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2,
+        "Cool": 4
+      }
+    },
+    {
+      "id": "DarkFlameFox",
+      "tribe": "DarkFlameFox",
+      "name": "Majex",
+      "paldexNumber": 115,
+      "rarity": 5,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "hp": 110,
+      "attack": 115,
+      "defense": 90,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 1010,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Handcraft": 5,
+        "ProductMedicine": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "WhiteMoth",
+      "tribe": "WhiteMoth",
+      "name": "Sibelyx",
+      "paldexNumber": 116,
+      "rarity": 7,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 110,
+      "attack": 90,
+      "defense": 100,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1810,
+      "nocturnal": false,
+      "workSuitability": {
+        "ProductMedicine": 3,
+        "Cool": 3,
+        "MonsterFarm": 3
+      }
+    },
+    {
+      "id": "WhiteMoth_Neutral",
+      "tribe": "WhiteMoth_Neutral",
+      "name": "Sibelyx Primo",
+      "paldexNumber": 116,
+      "rarity": 8,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 115,
+      "attack": 90,
+      "defense": 100,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 650,
+      "nocturnal": false,
+      "workSuitability": {
+        "ProductMedicine": 3,
+        "MonsterFarm": 4
+      }
+    },
+    {
+      "id": "GhostBeast",
+      "tribe": "GhostBeast",
+      "name": "Maraith",
+      "paldexNumber": 117,
+      "rarity": 6,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 75,
+      "attack": 105,
+      "defense": 80,
+      "runSpeed": 700,
+      "stamina": 130,
+      "food": 5,
+      "breedingRank": 1710,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 4,
+        "Mining": 4
+      }
+    },
+    {
+      "id": "MushroomDragon",
+      "tribe": "MushroomDragon",
+      "name": "Shroomer",
+      "paldexNumber": 118,
+      "rarity": 4,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 110,
+      "attack": 80,
+      "defense": 90,
+      "runSpeed": 740,
+      "stamina": 220,
+      "food": 5,
+      "breedingRank": 1520,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 2,
+        "Collection": 3,
+        "Deforest": 2,
+        "MonsterFarm": 3
+      }
+    },
+    {
+      "id": "MushroomDragon_Dark",
+      "tribe": "MushroomDragon_Dark",
+      "name": "Shroomer Noct",
+      "paldexNumber": 118,
+      "rarity": 5,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "hp": 110,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 740,
+      "stamina": 220,
+      "food": 5,
+      "breedingRank": 1450,
+      "nocturnal": true,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 3,
+        "Collection": 3,
+        "Deforest": 2
+      }
+    },
+    {
+      "id": "IceWitch",
+      "tribe": "IceWitch",
+      "name": "Icelyn",
+      "paldexNumber": 119,
+      "rarity": 4,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 95,
+      "attack": 115,
+      "defense": 105,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1260,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 5,
+        "ProductMedicine": 4,
+        "Cool": 5,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "MummyPal",
+      "tribe": "MummyPal",
+      "name": "Gildra",
+      "paldexNumber": 120,
+      "rarity": 5,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "hp": 105,
+      "attack": 120,
+      "defense": 105,
+      "runSpeed": 480,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1170,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 5,
+        "ProductMedicine": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "Umihebi",
+      "tribe": "Umihebi",
+      "name": "Jormuntide",
+      "paldexNumber": 121,
+      "rarity": 8,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "hp": 130,
+      "attack": 120,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 150,
+      "food": 8,
+      "breedingRank": 590,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 7
+      }
+    },
+    {
+      "id": "Umihebi_Fire",
+      "tribe": "Umihebi_Fire",
+      "name": "Jormuntide Ignis",
+      "paldexNumber": 121,
+      "rarity": 9,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "hp": 130,
+      "attack": 130,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 150,
+      "food": 8,
+      "breedingRank": 170,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 7
+      }
+    },
+    {
+      "id": "Suzaku",
+      "tribe": "Suzaku",
+      "name": "Suzaku",
+      "paldexNumber": 122,
+      "rarity": 8,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 120,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 850,
+      "stamina": 350,
+      "food": 7,
+      "breedingRank": 1200,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5
+      }
+    },
+    {
+      "id": "Suzaku_Water",
+      "tribe": "Suzaku_Water",
+      "name": "Suzaku Aqua",
+      "paldexNumber": 122,
+      "rarity": 9,
+      "elements": [
+        "Water"
+      ],
+      "hp": 125,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 850,
+      "stamina": 350,
+      "food": 7,
+      "breedingRank": 740,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 6
+      }
+    },
+    {
+      "id": "FeatherOstrich",
+      "tribe": "FeatherOstrich",
+      "name": "Dazemu",
+      "paldexNumber": 123,
+      "rarity": 5,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 95,
+      "attack": 90,
+      "defense": 80,
+      "runSpeed": 900,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2210,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "SkyDragon",
+      "tribe": "SkyDragon",
+      "name": "Quivern",
+      "paldexNumber": 124,
+      "rarity": 7,
+      "elements": [
+        "Dragon"
+      ],
+      "hp": 105,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 800,
+      "stamina": 220,
+      "food": 6,
+      "breedingRank": 1210,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Collection": 3,
+        "Mining": 4,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "SkyDragon_Grass",
+      "tribe": "SkyDragon_Grass",
+      "name": "Quivern Botan",
+      "paldexNumber": 124,
+      "rarity": 8,
+      "elements": [
+        "Dragon",
+        "Leaf"
+      ],
+      "hp": 105,
+      "attack": 105,
+      "defense": 100,
+      "runSpeed": 800,
+      "stamina": 220,
+      "food": 6,
+      "breedingRank": 1300,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 5,
+        "Handcraft": 2,
+        "Collection": 4,
+        "Mining": 3,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "LeafPrincess",
+      "tribe": "LeafPrincess",
+      "name": "Lullu",
+      "paldexNumber": 125,
+      "rarity": 4,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 90,
+      "attack": 90,
+      "defense": 80,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1990,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 3,
+        "Collection": 2,
+        "ProductMedicine": 3
+      }
+    },
+    {
+      "id": "SmallArmadillo",
+      "tribe": "SmallArmadillo",
+      "name": "Kikit",
+      "paldexNumber": 126,
+      "rarity": 4,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 75,
+      "attack": 70,
+      "defense": 90,
+      "runSpeed": 800,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2310,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 1
+      }
+    },
+    {
+      "id": "GuardianDog",
+      "tribe": "GuardianDog",
+      "name": "Yakumo",
+      "paldexNumber": 127,
+      "rarity": 4,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 85,
+      "attack": 85,
+      "defense": 85,
+      "runSpeed": 750,
+      "stamina": 140,
+      "food": 3,
+      "breedingRank": 2230,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "SwordCutlassfish",
+      "tribe": "SwordCutlassfish",
+      "name": "Skutlass",
+      "paldexNumber": 128,
+      "rarity": 5,
+      "elements": [
+        "Water"
+      ],
+      "hp": 70,
+      "attack": 100,
+      "defense": 80,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1420,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 4,
+        "Collection": 1,
+        "Deforest": 4
+      }
+    },
+    {
+      "id": "SwordCutlassfish_Fire",
+      "tribe": "SwordCutlassfish_Fire",
+      "name": "Skutlass Ignis",
+      "paldexNumber": 128,
+      "rarity": 5,
+      "elements": [
+        "Water",
+        "Fire"
+      ],
+      "hp": 70,
+      "attack": 105,
+      "defense": 80,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1590,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Watering": 2,
+        "Collection": 2,
+        "Deforest": 3
+      }
+    },
+    {
+      "id": "VolcanicMonster",
+      "tribe": "VolcanicMonster",
+      "name": "Reptyro",
+      "paldexNumber": 129,
+      "rarity": 6,
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "hp": 110,
+      "attack": 105,
+      "defense": 120,
+      "runSpeed": 550,
+      "stamina": 220,
+      "food": 7,
+      "breedingRank": 1060,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Mining": 5
+      }
+    },
+    {
+      "id": "VolcanicMonster_Ice",
+      "tribe": "VolcanicMonster_Ice",
+      "name": "Reptyro Cryst",
+      "paldexNumber": 129,
+      "rarity": 7,
+      "elements": [
+        "Ice",
+        "Earth"
+      ],
+      "hp": 110,
+      "attack": 105,
+      "defense": 130,
+      "runSpeed": 550,
+      "stamina": 220,
+      "food": 7,
+      "breedingRank": 600,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 5,
+        "Cool": 5
+      }
+    },
+    {
+      "id": "NightBlueHorse",
+      "tribe": "NightBlueHorse",
+      "name": "Starryon",
+      "paldexNumber": 130,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 110,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 900,
+      "stamina": 230,
+      "food": 6,
+      "breedingRank": 1150,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 5
+      }
+    },
+    {
+      "id": "NightBlueHorse_Neutral",
+      "tribe": "NightBlueHorse_Neutral",
+      "name": "Starryon Primo",
+      "paldexNumber": 130,
+      "rarity": 8,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 110,
+      "attack": 105,
+      "defense": 100,
+      "runSpeed": 900,
+      "stamina": 230,
+      "food": 6,
+      "breedingRank": 430,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 7
+      }
+    },
+    {
+      "id": "RockBeast",
+      "tribe": "RockBeast",
+      "name": "Pierdon",
+      "paldexNumber": 131,
+      "rarity": 6,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 100,
+      "attack": 105,
+      "defense": 120,
+      "runSpeed": 350,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 1110,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 5
+      }
+    },
+    {
+      "id": "RockBeast_Ice",
+      "tribe": "RockBeast_Ice",
+      "name": "Pierdon Cryst",
+      "paldexNumber": 131,
+      "rarity": 7,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 100,
+      "attack": 110,
+      "defense": 120,
+      "runSpeed": 350,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 460,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 5,
+        "Cool": 6
+      }
+    },
+    {
+      "id": "WhiteTiger",
+      "tribe": "WhiteTiger",
+      "name": "Cryolinx",
+      "paldexNumber": 132,
+      "rarity": 7,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 100,
+      "attack": 100,
+      "defense": 110,
+      "runSpeed": 720,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 1040,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Deforest": 4,
+        "Cool": 4,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "WhiteTiger_Ground",
+      "tribe": "WhiteTiger_Ground",
+      "name": "Cryolinx Terra",
+      "paldexNumber": 132,
+      "rarity": 7,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 100,
+      "attack": 105,
+      "defense": 110,
+      "runSpeed": 720,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 470,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Deforest": 6,
+        "Mining": 5,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "SmallYeti",
+      "tribe": "SmallYeti",
+      "name": "Snugloo",
+      "paldexNumber": 133,
+      "rarity": 3,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 80,
+      "attack": 75,
+      "defense": 85,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 2390,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 2,
+        "Mining": 3,
+        "Cool": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "Yeti",
+      "tribe": "Yeti",
+      "name": "Wumpo",
+      "paldexNumber": 134,
+      "rarity": 7,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 140,
+      "attack": 80,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 240,
+      "food": 7,
+      "breedingRank": 830,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Deforest": 5,
+        "Cool": 5,
+        "Transport": 6
+      }
+    },
+    {
+      "id": "Yeti_Grass",
+      "tribe": "Yeti_Grass",
+      "name": "Wumpo Botan",
+      "paldexNumber": 134,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 140,
+      "attack": 80,
+      "defense": 110,
+      "runSpeed": 600,
+      "stamina": 240,
+      "food": 7,
+      "breedingRank": 610,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 3,
+        "Deforest": 5,
+        "Transport": 6
+      }
+    },
+    {
+      "id": "CandleGhost",
+      "tribe": "CandleGhost",
+      "name": "Sootseer",
+      "paldexNumber": 135,
+      "rarity": 7,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 125,
+      "defense": 90,
+      "runSpeed": 800,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 980,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Handcraft": 3,
+        "Collection": 2,
+        "Mining": 3,
+        "MonsterFarm": 2
+      }
+    },
+    {
+      "id": "VenusFlytrap",
+      "tribe": "VenusFlytrap",
+      "name": "Carnibora",
+      "paldexNumber": 136,
+      "rarity": 6,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 85,
+      "attack": 90,
+      "defense": 85,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 1700,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 6,
+        "Handcraft": 4,
+        "Collection": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "KingBahamut",
+      "tribe": "KingBahamut",
+      "name": "Blazamut",
+      "paldexNumber": 137,
+      "rarity": 9,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 100,
+      "attack": 125,
+      "defense": 120,
+      "runSpeed": 800,
+      "stamina": 190,
+      "food": 9,
+      "breedingRank": 410,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 6,
+        "Mining": 7
+      }
+    },
+    {
+      "id": "KingBahamut_Dragon",
+      "tribe": "KingBahamut_Dragon",
+      "name": "Blazamut Ryu",
+      "paldexNumber": 137,
+      "rarity": 10,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 130,
+      "defense": 125,
+      "runSpeed": 800,
+      "stamina": 190,
+      "food": 9,
+      "breedingRank": 100,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 6,
+        "Mining": 7
+      }
+    },
+    {
+      "id": "GrassGolem",
+      "tribe": "GrassGolem",
+      "name": "Dualith",
+      "paldexNumber": 138,
+      "rarity": 8,
+      "elements": [
+        "Earth",
+        "Leaf"
+      ],
+      "hp": 110,
+      "attack": 105,
+      "defense": 125,
+      "runSpeed": 600,
+      "stamina": 210,
+      "food": 8,
+      "breedingRank": 510,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Collection": 3,
+        "Deforest": 5,
+        "Mining": 6,
+        "Transport": 6
+      }
+    },
+    {
+      "id": "GrassGolem_Dark",
+      "tribe": "GrassGolem_Dark",
+      "name": "Dualith Noct",
+      "paldexNumber": 138,
+      "rarity": 8,
+      "elements": [
+        "Earth",
+        "Dark"
+      ],
+      "hp": 110,
+      "attack": 110,
+      "defense": 125,
+      "runSpeed": 600,
+      "stamina": 210,
+      "food": 8,
+      "breedingRank": 250,
+      "nocturnal": true,
+      "workSuitability": {
+        "Seeding": 3,
+        "Collection": 3,
+        "Deforest": 5,
+        "Mining": 6,
+        "Transport": 6
+      }
+    },
+    {
+      "id": "Anubis",
+      "tribe": "Anubis",
+      "name": "Anubis",
+      "paldexNumber": 139,
+      "rarity": 10,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 120,
+      "attack": 130,
+      "defense": 100,
+      "runSpeed": 800,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 480,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 6,
+        "Mining": 6,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "Sekhmet",
+      "tribe": "Sekhmet",
+      "name": "Sekhmet",
+      "paldexNumber": 140,
+      "rarity": 5,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 110,
+      "attack": 115,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 870,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 6,
+        "Mining": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "ScorpionMan",
+      "tribe": "ScorpionMan",
+      "name": "Prixter",
+      "paldexNumber": 141,
+      "rarity": 5,
+      "elements": [
+        "Dark",
+        "Earth"
+      ],
+      "hp": 90,
+      "attack": 110,
+      "defense": 90,
+      "runSpeed": 720,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1510,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 2,
+        "Deforest": 4,
+        "ProductMedicine": 2
+      }
+    },
+    {
+      "id": "ScorpionMan_Electric",
+      "tribe": "ScorpionMan_Electric",
+      "name": "Prixter Lux",
+      "paldexNumber": 141,
+      "rarity": 6,
+      "elements": [
+        "Electricity",
+        "Earth"
+      ],
+      "hp": 90,
+      "attack": 115,
+      "defense": 90,
+      "runSpeed": 720,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 850,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 3,
+        "Collection": 2,
+        "Deforest": 4,
+        "ProductMedicine": 2
+      }
+    },
+    {
+      "id": "CubeTurtle",
+      "tribe": "CubeTurtle",
+      "name": "Tetroise",
+      "paldexNumber": 142,
+      "rarity": 8,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 95,
+      "attack": 100,
+      "defense": 135,
+      "runSpeed": 360,
+      "stamina": 200,
+      "food": 8,
+      "breedingRank": 790,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 4
+      }
+    },
+    {
+      "id": "CubeTurtle_Neutral",
+      "tribe": "CubeTurtle_Neutral",
+      "name": "Tetroise Primo",
+      "paldexNumber": 142,
+      "rarity": 8,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 95,
+      "attack": 100,
+      "defense": 140,
+      "runSpeed": 360,
+      "stamina": 200,
+      "food": 8,
+      "breedingRank": 200,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 6
+      }
+    },
+    {
+      "id": "BadCatgirl",
+      "tribe": "BadCatgirl",
+      "name": "Nyafia",
+      "paldexNumber": 143,
+      "rarity": 4,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 110,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1250,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 4,
+        "Collection": 4,
+        "Deforest": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "MimicDog",
+      "tribe": "MimicDog",
+      "name": "Mimog",
+      "paldexNumber": 144,
+      "rarity": 7,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 60,
+      "attack": 60,
+      "defense": 130,
+      "runSpeed": 2000,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1740,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 1,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "DarkAlien",
+      "tribe": "DarkAlien",
+      "name": "Xenovader",
+      "paldexNumber": 145,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 125,
+      "defense": 85,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1820,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 3,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "SUMMON_DarkAlien",
+      "tribe": "DarkAlien",
+      "name": "Xenovader",
+      "paldexNumber": 145,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 125,
+      "defense": 85,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 9999,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "SUMMON_DarkAlien_MAX",
+      "tribe": "DarkAlien",
+      "name": "Xenovader",
+      "paldexNumber": 145,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 125,
+      "defense": 85,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 9999,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "DarkAlien_Oilrig",
+      "tribe": "DarkAlien",
+      "name": "Xenovader",
+      "paldexNumber": 145,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 90,
+      "attack": 125,
+      "defense": 85,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "WhiteAlienDragon",
+      "tribe": "WhiteAlienDragon",
+      "name": "Xenogard",
+      "paldexNumber": 146,
+      "rarity": 9,
+      "elements": [
+        "Dragon"
+      ],
+      "hp": 110,
+      "attack": 120,
+      "defense": 130,
+      "runSpeed": 790,
+      "stamina": 250,
+      "food": 7,
+      "breedingRank": 990,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 4
+      }
+    },
+    {
+      "id": "SUMMON_WhiteAlienDragon",
+      "tribe": "WhiteAlienDragon",
+      "name": "Xenogard",
+      "paldexNumber": 146,
+      "rarity": 9,
+      "elements": [
+        "Dragon"
+      ],
+      "hp": 110,
+      "attack": 120,
+      "defense": 130,
+      "runSpeed": 790,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 3
+      }
+    },
+    {
+      "id": "BlueberryFairy",
+      "tribe": "BlueberryFairy",
+      "name": "Prunelia",
+      "paldexNumber": 147,
+      "rarity": 5,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "hp": 105,
+      "attack": 95,
+      "defense": 100,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1390,
+      "nocturnal": true,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 1,
+        "Collection": 2,
+        "ProductMedicine": 3,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "GhostRabbit",
+      "tribe": "GhostRabbit",
+      "name": "Nitemary",
+      "paldexNumber": 148,
+      "rarity": 6,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 105,
+      "attack": 95,
+      "defense": 105,
+      "runSpeed": 380,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1230,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "GhostRabbit_Grass",
+      "tribe": "GhostRabbit_Grass",
+      "name": "Nitemary Botan",
+      "paldexNumber": 148,
+      "rarity": 7,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 110,
+      "attack": 95,
+      "defense": 105,
+      "runSpeed": 380,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1320,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 3,
+        "Handcraft": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "BlackPuppy",
+      "tribe": "BlackPuppy",
+      "name": "Smokie",
+      "paldexNumber": 149,
+      "rarity": 2,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 85,
+      "attack": 90,
+      "defense": 85,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1760,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "BlackPuppy_Ice",
+      "tribe": "BlackPuppy_Ice",
+      "name": "Smokie Cryst",
+      "paldexNumber": 149,
+      "rarity": 3,
+      "elements": [
+        "Dark",
+        "Ice"
+      ],
+      "hp": 85,
+      "attack": 90,
+      "defense": 90,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1610,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 2,
+        "Cool": 2
+      }
+    },
+    {
+      "id": "MysteryMask",
+      "tribe": "MysteryMask",
+      "name": "Omascul",
+      "paldexNumber": 150,
+      "rarity": 4,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 95,
+      "attack": 105,
+      "defense": 100,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1140,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 5
+      }
+    },
+    {
+      "id": "IceNarwhal",
+      "tribe": "IceNarwhal",
+      "name": "Whalaska",
+      "paldexNumber": 151,
+      "rarity": 8,
+      "elements": [
+        "Ice",
+        "Water"
+      ],
+      "hp": 105,
+      "attack": 115,
+      "defense": 110,
+      "runSpeed": 600,
+      "stamina": 200,
+      "food": 8,
+      "breedingRank": 710,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 5,
+        "Cool": 6
+      }
+    },
+    {
+      "id": "IceNarwhal_Fire",
+      "tribe": "IceNarwhal_Fire",
+      "name": "Whalaska Ignis",
+      "paldexNumber": 151,
+      "rarity": 8,
+      "elements": [
+        "Ice",
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 120,
+      "defense": 110,
+      "runSpeed": 600,
+      "stamina": 200,
+      "food": 8,
+      "breedingRank": 370,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Cool": 6
+      }
+    },
+    {
+      "id": "GrassRabbitMan",
+      "tribe": "GrassRabbitMan",
+      "name": "Verdash",
+      "paldexNumber": 152,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 90,
+      "attack": 115,
+      "defense": 90,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1160,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 4,
+        "Handcraft": 5,
+        "Collection": 5,
+        "Deforest": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "GrimGirl",
+      "tribe": "GrimGirl",
+      "name": "Splatterina",
+      "paldexNumber": 153,
+      "rarity": 4,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 95,
+      "attack": 115,
+      "defense": 105,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 780,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 6,
+        "Deforest": 3,
+        "ProductMedicine": 5,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "GoldenHorse",
+      "tribe": "GoldenHorse",
+      "name": "Gildane",
+      "paldexNumber": 154,
+      "rarity": 8,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 120,
+      "attack": 110,
+      "defense": 110,
+      "runSpeed": 840,
+      "stamina": 200,
+      "food": 8,
+      "breedingRank": 730,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 5
+      }
+    },
+    {
+      "id": "SifuDog",
+      "tribe": "SifuDog",
+      "name": "Dogen",
+      "paldexNumber": 155,
+      "rarity": 6,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 90,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1460,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 4,
+        "Collection": 3,
+        "Deforest": 3,
+        "ProductMedicine": 2,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "SumoDog",
+      "tribe": "SumoDog",
+      "name": "Bulldosu",
+      "paldexNumber": 156,
+      "rarity": 4,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 115,
+      "attack": 95,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 110,
+      "food": 6,
+      "breedingRank": 1190,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 4,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "WhiteDeer",
+      "tribe": "WhiteDeer",
+      "name": "Celesdir",
+      "paldexNumber": 157,
+      "rarity": 6,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 120,
+      "attack": 110,
+      "defense": 100,
+      "runSpeed": 800,
+      "stamina": 260,
+      "food": 8,
+      "breedingRank": 570,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 4,
+        "Deforest": 7
+      }
+    },
+    {
+      "id": "WhiteDeer_Dark",
+      "tribe": "WhiteDeer_Dark",
+      "name": "Celesdir Noct",
+      "paldexNumber": 157,
+      "rarity": 7,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 120,
+      "attack": 115,
+      "defense": 100,
+      "runSpeed": 800,
+      "stamina": 260,
+      "food": 8,
+      "breedingRank": 270,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 4,
+        "Deforest": 8
+      }
+    },
+    {
+      "id": "BlackMetalDragon",
+      "tribe": "BlackMetalDragon",
+      "name": "Astegon",
+      "paldexNumber": 158,
+      "rarity": 9,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "hp": 100,
+      "attack": 125,
+      "defense": 125,
+      "runSpeed": 700,
+      "stamina": 300,
+      "food": 7,
+      "breedingRank": 490,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Mining": 7
+      }
+    },
+    {
+      "id": "WingGolem",
+      "tribe": "WingGolem",
+      "name": "Knocklem",
+      "paldexNumber": 159,
+      "rarity": 9,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 105,
+      "attack": 110,
+      "defense": 135,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 260,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 4,
+        "Mining": 7,
+        "Transport": 7
+      }
+    },
+    {
+      "id": "WingGolem_Oilrig",
+      "tribe": "WingGolem",
+      "name": "Knocklem",
+      "paldexNumber": 159,
+      "rarity": 9,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 126,
+      "attack": 110,
+      "defense": 135,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 3,
+        "Mining": 4,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "WingGolem_Fire",
+      "tribe": "WingGolem_Fire",
+      "name": "Knocklem Ignis",
+      "paldexNumber": 159,
+      "rarity": 10,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 115,
+      "defense": 135,
+      "runSpeed": 550,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 210,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 5,
+        "Mining": 7,
+        "Transport": 7
+      }
+    },
+    {
+      "id": "WhiteShieldDragon",
+      "tribe": "WhiteShieldDragon",
+      "name": "Silvegis",
+      "paldexNumber": 160,
+      "rarity": 8,
+      "elements": [
+        "Dragon"
+      ],
+      "hp": 120,
+      "attack": 110,
+      "defense": 115,
+      "runSpeed": 700,
+      "stamina": 280,
+      "food": 8,
+      "breedingRank": 560,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 6
+      }
+    },
+    {
+      "id": "BlueThunderHorse",
+      "tribe": "BlueThunderHorse",
+      "name": "Azurmane",
+      "paldexNumber": 161,
+      "rarity": 7,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 130,
+      "attack": 120,
+      "defense": 110,
+      "runSpeed": 900,
+      "stamina": 220,
+      "food": 8,
+      "breedingRank": 420,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 5
+      }
+    },
+    {
+      "id": "LongCat",
+      "tribe": "LongCat",
+      "name": "Valentail",
+      "paldexNumber": 162,
+      "rarity": 2,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1900,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "ElecSnail",
+      "tribe": "ElecSnail",
+      "name": "Snock",
+      "paldexNumber": 163,
+      "rarity": 2,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 65,
+      "attack": 70,
+      "defense": 75,
+      "runSpeed": 360,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1780,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 4
+      }
+    },
+    {
+      "id": "ElecSnail_Ground",
+      "tribe": "ElecSnail_Ground",
+      "name": "Snock Lux",
+      "paldexNumber": 163,
+      "rarity": 3,
+      "elements": [
+        "Electricity",
+        "Earth"
+      ],
+      "hp": 65,
+      "attack": 70,
+      "defense": 80,
+      "runSpeed": 360,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1500,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 4
+      }
+    },
+    {
+      "id": "DandelionGirl",
+      "tribe": "DandelionGirl",
+      "name": "Souffline",
+      "paldexNumber": 164,
+      "rarity": 3,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 70,
+      "attack": 75,
+      "defense": 60,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 2000,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 2,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "BrownRabbit",
+      "tribe": "BrownRabbit",
+      "name": "Lapiron",
+      "paldexNumber": 165,
+      "rarity": 3,
+      "elements": [
+        "Earth"
+      ],
+      "hp": 70,
+      "attack": 75,
+      "defense": 80,
+      "runSpeed": 480,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1680,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 3,
+        "Collection": 4,
+        "Mining": 2,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "HoodGhost",
+      "tribe": "HoodGhost",
+      "name": "Hoodle",
+      "paldexNumber": 166,
+      "rarity": 3,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 85,
+      "defense": 80,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 3,
+      "breedingRank": 1770,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 1,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "ElecLizard",
+      "tribe": "ElecLizard",
+      "name": "Slowatt",
+      "paldexNumber": 167,
+      "rarity": 4,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 80,
+      "attack": 75,
+      "defense": 70,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 4,
+      "breedingRank": 1750,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 3
+      }
+    },
+    {
+      "id": "OniGhostGirl",
+      "tribe": "OniGhostGirl",
+      "name": "Bakemi",
+      "paldexNumber": 168,
+      "rarity": 4,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 70,
+      "attack": 85,
+      "defense": 80,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1540,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 3,
+        "ProductMedicine": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "KingSunfish",
+      "tribe": "KingSunfish",
+      "name": "Solmora",
+      "paldexNumber": 169,
+      "rarity": 4,
+      "elements": [
+        "Water"
+      ],
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "runSpeed": 500,
+      "stamina": 220,
+      "food": 6,
+      "breedingRank": 1370,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 4
+      }
+    },
+    {
+      "id": "KingSunfish_Thunder",
+      "tribe": "KingSunfish_Thunder",
+      "name": "Solmora Lux",
+      "paldexNumber": 169,
+      "rarity": 5,
+      "elements": [
+        "Water",
+        "Electricity"
+      ],
+      "hp": 90,
+      "attack": 95,
+      "defense": 85,
+      "runSpeed": 500,
+      "stamina": 220,
+      "food": 6,
+      "breedingRank": 1000,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 4,
+        "GenerateElectricity": 6
+      }
+    },
+    {
+      "id": "SleeveRabbit",
+      "tribe": "SleeveRabbit",
+      "name": "Lapure",
+      "paldexNumber": 170,
+      "rarity": 4,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 105,
+      "attack": 100,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 810,
+      "nocturnal": false,
+      "workSuitability": {
+        "Handcraft": 6,
+        "Collection": 5
+      }
+    },
+    {
+      "id": "GhostDragon",
+      "tribe": "GhostDragon",
+      "name": "Eidrolon",
+      "paldexNumber": 171,
+      "rarity": 7,
+      "elements": [
+        "Dragon",
+        "Dark"
+      ],
+      "hp": 115,
+      "attack": 125,
+      "defense": 120,
+      "runSpeed": 1400,
+      "stamina": 130,
+      "food": 9,
+      "breedingRank": 300,
+      "nocturnal": true,
+      "workSuitability": {
+        "Transport": 6
+      }
+    },
+    {
+      "id": "GhostDragon_Fire",
+      "tribe": "GhostDragon_Fire",
+      "name": "Eidrolon Ignis",
+      "paldexNumber": 171,
+      "rarity": 8,
+      "elements": [
+        "Dragon",
+        "Fire"
+      ],
+      "hp": 115,
+      "attack": 130,
+      "defense": 120,
+      "runSpeed": 1400,
+      "stamina": 130,
+      "food": 9,
+      "breedingRank": 140,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 6,
+        "Transport": 6
+      }
+    },
+    {
+      "id": "ThunderFluffyBird",
+      "tribe": "ThunderFluffyBird",
+      "name": "Dynamoff",
+      "paldexNumber": 172,
+      "rarity": 6,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 75,
+      "attack": 85,
+      "defense": 80,
+      "runSpeed": 700,
+      "stamina": 140,
+      "food": 6,
+      "breedingRank": 1400,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 6,
+        "Collection": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "RedFlowerBird",
+      "tribe": "RedFlowerBird",
+      "name": "Tropicaw",
+      "paldexNumber": 173,
+      "rarity": 5,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 85,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 1350,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 5,
+        "Collection": 5
+      }
+    },
+    {
+      "id": "FoxExorcist",
+      "tribe": "FoxExorcist",
+      "name": "Flaracle",
+      "paldexNumber": 174,
+      "rarity": 7,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 110,
+      "attack": 125,
+      "defense": 105,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 390,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 7,
+        "Handcraft": 6,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "LotusDragon",
+      "tribe": "LotusDragon",
+      "name": "Ophydia",
+      "paldexNumber": 175,
+      "rarity": 9,
+      "elements": [
+        "Leaf",
+        "Water"
+      ],
+      "hp": 130,
+      "attack": 115,
+      "defense": 120,
+      "runSpeed": 700,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 230,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 5,
+        "Seeding": 7
+      }
+    },
+    {
+      "id": "ClownRabbit",
+      "tribe": "ClownRabbit",
+      "name": "Dupin",
+      "paldexNumber": 176,
+      "rarity": 7,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 100,
+      "attack": 110,
+      "defense": 100,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 520,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 7,
+        "Handcraft": 5,
+        "ProductMedicine": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "ThiefBird",
+      "tribe": "ThiefBird",
+      "name": "Roujay",
+      "paldexNumber": 177,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 110,
+      "attack": 115,
+      "defense": 95,
+      "runSpeed": 950,
+      "stamina": 200,
+      "food": 8,
+      "breedingRank": 530,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 5,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "SnakeGirl",
+      "tribe": "SnakeGirl",
+      "name": "Venusa",
+      "paldexNumber": 178,
+      "rarity": 5,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 80,
+      "attack": 85,
+      "defense": 90,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 6,
+      "breedingRank": 970,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 6,
+        "Collection": 6,
+        "ProductMedicine": 5,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "MushroomLady",
+      "tribe": "MushroomLady",
+      "name": "Mycora",
+      "paldexNumber": 179,
+      "rarity": 6,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 105,
+      "attack": 95,
+      "defense": 90,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 760,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 6,
+        "Handcraft": 4,
+        "Collection": 4,
+        "ProductMedicine": 6
+      }
+    },
+    {
+      "id": "LanternButler",
+      "tribe": "LanternButler",
+      "name": "Loomen",
+      "paldexNumber": 180,
+      "rarity": 5,
+      "elements": [
+        "Dark",
+        "Fire"
+      ],
+      "hp": 90,
+      "attack": 100,
+      "defense": 95,
+      "runSpeed": 300,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 890,
+      "nocturnal": true,
+      "workSuitability": {
+        "EmitFlame": 4,
+        "Handcraft": 4,
+        "ProductMedicine": 4
+      }
+    },
+    {
+      "id": "MoonChild",
+      "tribe": "MoonChild",
+      "name": "Wistella",
+      "paldexNumber": 181,
+      "rarity": 2,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 80,
+      "attack": 90,
+      "defense": 60,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 5,
+      "breedingRank": 1180,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 6,
+        "ProductMedicine": 6,
+        "Transport": 1
+      }
+    },
+    {
+      "id": "MonochromeQueen",
+      "tribe": "MonochromeQueen",
+      "name": "Solenne",
+      "paldexNumber": 182,
+      "rarity": 7,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "hp": 110,
+      "attack": 115,
+      "defense": 115,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 280,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 8,
+        "Collection": 4,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "KabukiMan",
+      "tribe": "KabukiMan",
+      "name": "Renjishi",
+      "paldexNumber": 183,
+      "rarity": 7,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 120,
+      "defense": 100,
+      "runSpeed": 400,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 290,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 8,
+        "Handcraft": 6,
+        "Collection": 5,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "DomeArmorDragon",
+      "tribe": "DomeArmorDragon",
+      "name": "Aegidron",
+      "paldexNumber": 184,
+      "rarity": 8,
+      "elements": [
+        "Dragon",
+        "Earth"
+      ],
+      "hp": 105,
+      "attack": 125,
+      "defense": 140,
+      "runSpeed": 850,
+      "stamina": 300,
+      "food": 9,
+      "breedingRank": 30,
+      "nocturnal": false,
+      "workSuitability": {
+        "Mining": 8
+      }
+    },
+    {
+      "id": "ElecPanda",
+      "tribe": "ElecPanda",
+      "name": "Grizzbolt",
+      "paldexNumber": 185,
+      "rarity": 8,
+      "elements": [
+        "Electricity"
+      ],
+      "hp": 120,
+      "attack": 105,
+      "defense": 105,
+      "runSpeed": 600,
+      "stamina": 180,
+      "food": 6,
+      "breedingRank": 1020,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 5,
+        "Handcraft": 4,
+        "Deforest": 3,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "LilyQueen",
+      "tribe": "LilyQueen",
+      "name": "Lyleen",
+      "paldexNumber": 186,
+      "rarity": 9,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 120,
+      "attack": 120,
+      "defense": 110,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 240,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 7,
+        "Handcraft": 5,
+        "Collection": 6,
+        "ProductMedicine": 5
+      }
+    },
+    {
+      "id": "LilyQueen_Dark",
+      "tribe": "LilyQueen_Dark",
+      "name": "Lyleen Noct",
+      "paldexNumber": 186,
+      "rarity": 10,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 115,
+      "attack": 120,
+      "defense": 115,
+      "runSpeed": 450,
+      "stamina": 100,
+      "food": 8,
+      "breedingRank": 220,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 5,
+        "Collection": 6,
+        "ProductMedicine": 7
+      }
+    },
+    {
+      "id": "ThunderDragonMan",
+      "tribe": "ThunderDragonMan",
+      "name": "Orserk",
+      "paldexNumber": 187,
+      "rarity": 9,
+      "elements": [
+        "Dragon",
+        "Electricity"
+      ],
+      "hp": 120,
+      "attack": 130,
+      "defense": 115,
+      "runSpeed": 900,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 120,
+      "nocturnal": false,
+      "workSuitability": {
+        "GenerateElectricity": 8,
+        "Handcraft": 3,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "Horus",
+      "tribe": "Horus",
+      "name": "Faleris",
+      "paldexNumber": 188,
+      "rarity": 9,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 110,
+      "defense": 115,
+      "runSpeed": 1000,
+      "stamina": 230,
+      "food": 9,
+      "breedingRank": 500,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 6,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "Horus_Oilrig",
+      "tribe": "Horus",
+      "name": "Faleris",
+      "paldexNumber": 188,
+      "rarity": 9,
+      "elements": [
+        "Fire"
+      ],
+      "hp": 105,
+      "attack": 110,
+      "defense": 115,
+      "runSpeed": 1000,
+      "stamina": 230,
+      "food": 9,
+      "breedingRank": 9999,
+      "nocturnal": false,
+      "workSuitability": {
+        "EmitFlame": 3,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "Horus_Water",
+      "tribe": "Horus_Water",
+      "name": "Faleris Aqua",
+      "paldexNumber": 188,
+      "rarity": 9,
+      "elements": [
+        "Water"
+      ],
+      "hp": 110,
+      "attack": 110,
+      "defense": 115,
+      "runSpeed": 1000,
+      "stamina": 230,
+      "food": 9,
+      "breedingRank": 450,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 6,
+        "Transport": 5
+      }
+    },
+    {
+      "id": "BlackGriffon",
+      "tribe": "BlackGriffon",
+      "name": "Shadowbeak",
+      "paldexNumber": 189,
+      "rarity": 10,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 120,
+      "attack": 120,
+      "defense": 140,
+      "runSpeed": 850,
+      "stamina": 250,
+      "food": 8,
+      "breedingRank": 550,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "MoonQueen",
+      "tribe": "MoonQueen",
+      "name": "Selyne",
+      "paldexNumber": 190,
+      "rarity": 9,
+      "elements": [
+        "Dark",
+        "Normal"
+      ],
+      "hp": 130,
+      "attack": 115,
+      "defense": 110,
+      "runSpeed": 1000,
+      "stamina": 300,
+      "food": 9,
+      "breedingRank": 360,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 7,
+        "ProductMedicine": 6,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "SnowTigerBeastman",
+      "tribe": "SnowTigerBeastman",
+      "name": "Bastigor",
+      "paldexNumber": 191,
+      "rarity": 8,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 140,
+      "attack": 130,
+      "defense": 120,
+      "runSpeed": 750,
+      "stamina": 270,
+      "food": 9,
+      "breedingRank": 50,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 6,
+        "Mining": 5,
+        "Cool": 8
+      }
+    },
+    {
+      "id": "BlueSkyDragon",
+      "tribe": "BlueSkyDragon",
+      "name": "Shaolong",
+      "paldexNumber": 192,
+      "rarity": 9,
+      "elements": [
+        "Dragon",
+        "Water"
+      ],
+      "hp": 140,
+      "attack": 135,
+      "defense": 120,
+      "runSpeed": 1400,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 40,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 8,
+        "Collection": 5
+      }
+    },
+    {
+      "id": "Mothman",
+      "tribe": "Mothman",
+      "name": "Silvance",
+      "paldexNumber": 193,
+      "rarity": 8,
+      "elements": [
+        "Leaf"
+      ],
+      "hp": 140,
+      "attack": 120,
+      "defense": 110,
+      "runSpeed": 500,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 80,
+      "nocturnal": false,
+      "workSuitability": {
+        "Seeding": 6,
+        "Handcraft": 6,
+        "Collection": 4,
+        "ProductMedicine": 8,
+        "Transport": 2
+      }
+    },
+    {
+      "id": "FlowerPrince",
+      "tribe": "FlowerPrince",
+      "name": "Dandilord",
+      "paldexNumber": 194,
+      "rarity": 8,
+      "elements": [
+        "Leaf",
+        "Dark"
+      ],
+      "hp": 125,
+      "attack": 135,
+      "defense": 110,
+      "runSpeed": 1000,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 60,
+      "nocturnal": true,
+      "workSuitability": {
+        "Seeding": 8,
+        "Handcraft": 6,
+        "Collection": 5,
+        "ProductMedicine": 6,
+        "Transport": 3
+      }
+    },
+    {
+      "id": "NightLady",
+      "tribe": "NightLady",
+      "name": "Bellanoir",
+      "paldexNumber": 195,
+      "rarity": 20,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 120,
+      "attack": 150,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 620,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 5,
+        "ProductMedicine": 5,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "NightLady_Dark",
+      "tribe": "NightLady_Dark",
+      "name": "Bellanoir Libero",
+      "paldexNumber": 195,
+      "rarity": 20,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 120,
+      "attack": 150,
+      "defense": 100,
+      "runSpeed": 600,
+      "stamina": 100,
+      "food": 7,
+      "breedingRank": 130,
+      "nocturnal": true,
+      "workSuitability": {
+        "Handcraft": 6,
+        "ProductMedicine": 7,
+        "Transport": 4
+      }
+    },
+    {
+      "id": "DarkMechaDragon",
+      "tribe": "DarkMechaDragon",
+      "name": "Xenolord",
+      "paldexNumber": 196,
+      "rarity": 8,
+      "elements": [
+        "Dark",
+        "Dragon"
+      ],
+      "hp": 130,
+      "attack": 120,
+      "defense": 120,
+      "runSpeed": 550,
+      "stamina": 300,
+      "food": 8,
+      "breedingRank": 400,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 2
+      }
+    },
+    {
+      "id": "LegendDeer",
+      "tribe": "LegendDeer",
+      "name": "Hartalis",
+      "paldexNumber": 197,
+      "rarity": 10,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 135,
+      "attack": 130,
+      "defense": 110,
+      "runSpeed": 900,
+      "stamina": 400,
+      "food": 9,
+      "breedingRank": 90,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 7,
+        "Deforest": 7
+      }
+    },
+    {
+      "id": "SaintCentaur",
+      "tribe": "SaintCentaur",
+      "name": "Paladius",
+      "paldexNumber": 198,
+      "rarity": 20,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 130,
+      "attack": 120,
+      "defense": 145,
+      "runSpeed": 800,
+      "stamina": 400,
+      "food": 9,
+      "breedingRank": 180,
+      "nocturnal": false,
+      "workSuitability": {
+        "Deforest": 6,
+        "Mining": 6
+      }
+    },
+    {
+      "id": "BlackCentaur",
+      "tribe": "BlackCentaur",
+      "name": "Necromus",
+      "paldexNumber": 199,
+      "rarity": 20,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 130,
+      "attack": 145,
+      "defense": 120,
+      "runSpeed": 1300,
+      "stamina": 350,
+      "food": 9,
+      "breedingRank": 190,
+      "nocturnal": true,
+      "workSuitability": {
+        "Deforest": 6,
+        "Mining": 6
+      }
+    },
+    {
+      "id": "IceHorse",
+      "tribe": "IceHorse",
+      "name": "Frostallion",
+      "paldexNumber": 200,
+      "rarity": 20,
+      "elements": [
+        "Ice"
+      ],
+      "hp": 140,
+      "attack": 140,
+      "defense": 120,
+      "runSpeed": 1200,
+      "stamina": 300,
+      "food": 9,
+      "breedingRank": 150,
+      "nocturnal": false,
+      "workSuitability": {
+        "Cool": 7
+      }
+    },
+    {
+      "id": "IceHorse_Dark",
+      "tribe": "IceHorse_Dark",
+      "name": "Frostallion Noct",
+      "paldexNumber": 200,
+      "rarity": 20,
+      "elements": [
+        "Dark"
+      ],
+      "hp": 140,
+      "attack": 140,
+      "defense": 135,
+      "runSpeed": 1200,
+      "stamina": 300,
+      "food": 9,
+      "breedingRank": 110,
+      "nocturnal": true,
+      "workSuitability": {
+        "Collection": 7
+      }
+    },
+    {
+      "id": "PoseidonOrca",
+      "tribe": "PoseidonOrca",
+      "name": "Neptilius",
+      "paldexNumber": 201,
+      "rarity": 20,
+      "elements": [
+        "Water"
+      ],
+      "hp": 105,
+      "attack": 145,
+      "defense": 125,
+      "runSpeed": 750,
+      "stamina": 410,
+      "food": 9,
+      "breedingRank": 160,
+      "nocturnal": false,
+      "workSuitability": {
+        "Watering": 7
+      }
+    },
+    {
+      "id": "JetDragon",
+      "tribe": "JetDragon",
+      "name": "Jetragon",
+      "paldexNumber": 202,
+      "rarity": 20,
+      "elements": [
+        "Dragon"
+      ],
+      "hp": 115,
+      "attack": 140,
+      "defense": 120,
+      "runSpeed": 1700,
+      "stamina": 110,
+      "food": 9,
+      "breedingRank": 70,
+      "nocturnal": false,
+      "workSuitability": {
+        "Collection": 8
+      }
+    },
+    {
+      "id": "KingWhale",
+      "tribe": "KingWhale",
+      "name": "Panthalus",
+      "paldexNumber": 203,
+      "rarity": 10,
+      "elements": [
+        "Water"
+      ],
+      "hp": 180,
+      "attack": 120,
+      "defense": 200,
+      "runSpeed": 3000,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 20,
+      "nocturnal": false,
+      "workSuitability": {}
+    },
+    {
+      "id": "WorldTreeDragon",
+      "tribe": "WorldTreeDragon",
+      "name": "Astralym",
+      "paldexNumber": 204,
+      "rarity": 10,
+      "elements": [
+        "Normal"
+      ],
+      "hp": 200,
+      "attack": 200,
+      "defense": 200,
+      "runSpeed": -1,
+      "stamina": 100,
+      "food": 9,
+      "breedingRank": 10,
+      "nocturnal": false,
+      "workSuitability": {}
+    }
+  ]
+}

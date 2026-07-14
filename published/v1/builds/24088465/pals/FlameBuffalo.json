@@ -1,0 +1,22 @@
+{
+  "id": "FlameBuffalo",
+  "tribe": "FlameBuffalo",
+  "name": "Arsox",
+  "paldexNumber": 58,
+  "rarity": 4,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 85,
+  "attack": 95,
+  "defense": 95,
+  "runSpeed": 700,
+  "stamina": 120,
+  "food": 3,
+  "breedingRank": 2320,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 3,
+    "Deforest": 2
+  }
+}

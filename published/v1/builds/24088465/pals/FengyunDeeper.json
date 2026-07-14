@@ -1,0 +1,21 @@
+{
+  "id": "FengyunDeeper",
+  "tribe": "FengyunDeeper",
+  "name": "Fenglope",
+  "paldexNumber": 83,
+  "rarity": 3,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 110,
+  "attack": 110,
+  "defense": 90,
+  "runSpeed": 750,
+  "stamina": 140,
+  "food": 5,
+  "breedingRank": 1960,
+  "nocturnal": false,
+  "workSuitability": {
+    "Deforest": 3
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "KingBahamut_Dragon",
+  "tribe": "KingBahamut_Dragon",
+  "name": "Blazamut Ryu",
+  "paldexNumber": 137,
+  "rarity": 10,
+  "elements": [
+    "Dragon",
+    "Fire"
+  ],
+  "hp": 105,
+  "attack": 130,
+  "defense": 125,
+  "runSpeed": 800,
+  "stamina": 190,
+  "food": 9,
+  "breedingRank": 100,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 6,
+    "Mining": 7
+  }
+}

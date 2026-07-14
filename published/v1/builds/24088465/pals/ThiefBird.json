@@ -1,0 +1,22 @@
+{
+  "id": "ThiefBird",
+  "tribe": "ThiefBird",
+  "name": "Roujay",
+  "paldexNumber": 177,
+  "rarity": 5,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 110,
+  "attack": 115,
+  "defense": 95,
+  "runSpeed": 950,
+  "stamina": 200,
+  "food": 8,
+  "breedingRank": 530,
+  "nocturnal": true,
+  "workSuitability": {
+    "Collection": 5,
+    "Transport": 5
+  }
+}

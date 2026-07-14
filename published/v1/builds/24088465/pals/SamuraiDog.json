@@ -1,0 +1,23 @@
+{
+  "id": "SamuraiDog",
+  "tribe": "SamuraiDog",
+  "name": "Pupperai",
+  "paldexNumber": 13,
+  "rarity": 2,
+  "elements": [
+    "Earth"
+  ],
+  "hp": 70,
+  "attack": 80,
+  "defense": 70,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2930,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 1,
+    "Deforest": 1,
+    "Transport": 1
+  }
+}

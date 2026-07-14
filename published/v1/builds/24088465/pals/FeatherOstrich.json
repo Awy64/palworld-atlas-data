@@ -1,0 +1,21 @@
+{
+  "id": "FeatherOstrich",
+  "tribe": "FeatherOstrich",
+  "name": "Dazemu",
+  "paldexNumber": 123,
+  "rarity": 5,
+  "elements": [
+    "Earth"
+  ],
+  "hp": 95,
+  "attack": 90,
+  "defense": 80,
+  "runSpeed": 900,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 2210,
+  "nocturnal": false,
+  "workSuitability": {
+    "Collection": 2
+  }
+}

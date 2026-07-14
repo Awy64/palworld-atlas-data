@@ -1,0 +1,22 @@
+{
+  "id": "SleeveRabbit",
+  "tribe": "SleeveRabbit",
+  "name": "Lapure",
+  "paldexNumber": 170,
+  "rarity": 4,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 105,
+  "attack": 100,
+  "defense": 100,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 7,
+  "breedingRank": 810,
+  "nocturnal": false,
+  "workSuitability": {
+    "Handcraft": 6,
+    "Collection": 5
+  }
+}

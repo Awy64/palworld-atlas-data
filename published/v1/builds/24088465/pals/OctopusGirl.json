@@ -1,0 +1,24 @@
+{
+  "id": "OctopusGirl",
+  "tribe": "OctopusGirl",
+  "name": "Gloopie",
+  "paldexNumber": 48,
+  "rarity": 5,
+  "elements": [
+    "Water",
+    "Dark"
+  ],
+  "hp": 70,
+  "attack": 85,
+  "defense": 70,
+  "runSpeed": 300,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 2530,
+  "nocturnal": true,
+  "workSuitability": {
+    "Watering": 2,
+    "Handcraft": 2,
+    "Transport": 2
+  }
+}

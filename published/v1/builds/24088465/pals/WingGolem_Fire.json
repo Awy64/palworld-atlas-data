@@ -1,0 +1,23 @@
+{
+  "id": "WingGolem_Fire",
+  "tribe": "WingGolem_Fire",
+  "name": "Knocklem Ignis",
+  "paldexNumber": 159,
+  "rarity": 10,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 105,
+  "attack": 115,
+  "defense": 135,
+  "runSpeed": 550,
+  "stamina": 100,
+  "food": 9,
+  "breedingRank": 210,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 5,
+    "Mining": 7,
+    "Transport": 7
+  }
+}

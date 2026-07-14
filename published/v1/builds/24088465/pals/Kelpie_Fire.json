@@ -1,0 +1,22 @@
+{
+  "id": "Kelpie_Fire",
+  "tribe": "Kelpie_Fire",
+  "name": "Kelpsea Ignis",
+  "paldexNumber": 43,
+  "rarity": 2,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 70,
+  "attack": 70,
+  "defense": 70,
+  "runSpeed": 700,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 2470,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 1,
+    "MonsterFarm": 1
+  }
+}

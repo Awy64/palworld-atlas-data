@@ -1,0 +1,21 @@
+{
+  "id": "Ganesha",
+  "tribe": "Ganesha",
+  "name": "Teafant",
+  "paldexNumber": 11,
+  "rarity": 1,
+  "elements": [
+    "Water"
+  ],
+  "hp": 70,
+  "attack": 60,
+  "defense": 70,
+  "runSpeed": 300,
+  "stamina": 100,
+  "food": 1,
+  "breedingRank": 3070,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 1
+  }
+}

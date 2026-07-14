@@ -1,0 +1,24 @@
+{
+  "id": "KabukiMan",
+  "tribe": "KabukiMan",
+  "name": "Renjishi",
+  "paldexNumber": 183,
+  "rarity": 7,
+  "elements": [
+    "Fire"
+  ],
+  "hp": 105,
+  "attack": 120,
+  "defense": 100,
+  "runSpeed": 400,
+  "stamina": 100,
+  "food": 8,
+  "breedingRank": 290,
+  "nocturnal": false,
+  "workSuitability": {
+    "EmitFlame": 8,
+    "Handcraft": 6,
+    "Collection": 5,
+    "Transport": 5
+  }
+}

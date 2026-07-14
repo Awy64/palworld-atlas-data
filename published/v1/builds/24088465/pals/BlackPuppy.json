@@ -1,0 +1,21 @@
+{
+  "id": "BlackPuppy",
+  "tribe": "BlackPuppy",
+  "name": "Smokie",
+  "paldexNumber": 149,
+  "rarity": 2,
+  "elements": [
+    "Dark"
+  ],
+  "hp": 85,
+  "attack": 90,
+  "defense": 85,
+  "runSpeed": 550,
+  "stamina": 100,
+  "food": 3,
+  "breedingRank": 1760,
+  "nocturnal": true,
+  "workSuitability": {
+    "Collection": 2
+  }
+}

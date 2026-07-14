@@ -1,0 +1,24 @@
+{
+  "id": "VenusFlytrap",
+  "tribe": "VenusFlytrap",
+  "name": "Carnibora",
+  "paldexNumber": 136,
+  "rarity": 6,
+  "elements": [
+    "Leaf"
+  ],
+  "hp": 85,
+  "attack": 90,
+  "defense": 85,
+  "runSpeed": 600,
+  "stamina": 100,
+  "food": 7,
+  "breedingRank": 1700,
+  "nocturnal": false,
+  "workSuitability": {
+    "Seeding": 6,
+    "Handcraft": 4,
+    "Collection": 4,
+    "Transport": 2
+  }
+}

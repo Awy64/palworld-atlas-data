@@ -1,0 +1,22 @@
+{
+  "id": "SaintCentaur",
+  "tribe": "SaintCentaur",
+  "name": "Paladius",
+  "paldexNumber": 198,
+  "rarity": 20,
+  "elements": [
+    "Normal"
+  ],
+  "hp": 130,
+  "attack": 120,
+  "defense": 145,
+  "runSpeed": 800,
+  "stamina": 400,
+  "food": 9,
+  "breedingRank": 180,
+  "nocturnal": false,
+  "workSuitability": {
+    "Deforest": 6,
+    "Mining": 6
+  }
+}

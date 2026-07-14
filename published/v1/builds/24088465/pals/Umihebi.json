@@ -1,0 +1,22 @@
+{
+  "id": "Umihebi",
+  "tribe": "Umihebi",
+  "name": "Jormuntide",
+  "paldexNumber": 121,
+  "rarity": 8,
+  "elements": [
+    "Dragon",
+    "Water"
+  ],
+  "hp": 130,
+  "attack": 120,
+  "defense": 100,
+  "runSpeed": 600,
+  "stamina": 150,
+  "food": 8,
+  "breedingRank": 590,
+  "nocturnal": false,
+  "workSuitability": {
+    "Watering": 7
+  }
+}
