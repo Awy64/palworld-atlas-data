@@ -65,6 +65,7 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
         Validate(pals, items, breeding, spawns, previousManifestPath);
 
         var buildDirectory = Path.Combine(outputDirectory, "v1", "builds", buildId);
+        if (Directory.Exists(buildDirectory)) Directory.Delete(buildDirectory, true);
         Directory.CreateDirectory(Path.Combine(buildDirectory, "pals"));
         Directory.CreateDirectory(Path.Combine(buildDirectory, "items"));
         Directory.CreateDirectory(Path.Combine(buildDirectory, "maps", "palpagos"));
