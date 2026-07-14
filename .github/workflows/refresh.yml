@@ -95,13 +95,21 @@ jobs:
           if [ -f "$RUNNER_TEMP/Mappings.usmap" ]; then
             mappings_args=(--mappings "$RUNNER_TEMP/Mappings.usmap")
           fi
-          dotnet run --project src/PalworldAtlas.Extractor --configuration Release --no-build -- \
+          set +e
+          output="$(dotnet run --project src/PalworldAtlas.Extractor --configuration Release --no-build -- \
             publish \
             --pak-dir "$RUNNER_TEMP/palworld-server/Pal/Content/Paks" \
             --output artifacts/site \
             --build-id "${{ steps.build.outputs.id }}" \
             "${mappings_args[@]}" \
-            "${previous_args[@]}"
+            "${previous_args[@]}" 2>&1)"
+          status=$?
+          set -e
+          printf '%s\n' "$output"
+          if [ "$status" -ne 0 ]; then
+            printf '%s\n' "$output" > artifacts/extraction-error.txt
+            exit "$status"
+          fi
       - name: Commit validated data
         if: steps.build.outputs.changed == 'true'
         run: |
@@ -122,7 +130,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Close resolved extraction issue
-        if: success() && steps.build.outputs.changed == 'true'
+        if: success()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -135,6 +143,7 @@ jobs:
           BUILD_ID: ${{ steps.build.outputs.id }}
         run: |
           title="Automated extraction failed"
-          body="Palworld build ${BUILD_ID:-unknown} did not pass the extraction or contract gate. The previous published build remains active. Inspect this workflow run before updating mappings or parser adapters."
+          detail="$(tail -n 1 artifacts/extraction-error.txt 2>/dev/null || echo 'A prerequisite or Steam query step failed before extraction completed.')"
+          body="Palworld build ${BUILD_ID:-unknown} did not pass the extraction or contract gate. The previous published build remains active. Failure: \`${detail}\`. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           issue="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
           if [ -n "$issue" ]; then gh issue comment "$issue" --body "$body"; else gh issue create --title "$title" --body "$body"; fi
