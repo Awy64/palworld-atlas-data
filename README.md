@@ -2,6 +2,8 @@
 
 Automated, versioned factual data for Palworld Atlas. A GitHub-hosted Linux runner downloads the anonymous Palworld Dedicated Server package, inventories its Unreal Engine tables, normalizes supported records, validates the resulting contract, and publishes JSON through GitHub Pages.
 
+Published pointer: [`v1/latest.json`](https://awy64.github.io/palworld-atlas-data/v1/latest.json)
+
 ## Safety and provenance
 
 - Steam app `2394010` is downloaded only when its public build ID changes.
@@ -14,7 +16,7 @@ Automated, versioned factual data for Palworld Atlas. A GitHub-hosted Linux runn
 - **Probe Palworld server package** is a manual feasibility gate. It records table presence, row counts, property names, elapsed time, and disk use without retaining extracted content.
 - **Refresh Atlas data** runs every six hours and on demand. It exits before downloading when the Steam build ID is unchanged.
 
-Palworld uses unversioned Unreal properties, so a mapping file matching the current game build may be required. Configure the repository variable `PALWORLD_MAPPINGS_URL` to a trusted, version-compatible mapping source. The probe reports a clear failure without publishing when mappings are absent or stale.
+The current Linux server build exposes the required table properties without an external Unreal mapping file. `PALWORLD_MAPPINGS_URL` remains an optional repository variable (and manual workflow override) if a future build requires a compatible `Mappings.usmap` file.
 
 ## Local commands
 
