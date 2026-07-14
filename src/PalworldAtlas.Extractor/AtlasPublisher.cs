@@ -285,8 +285,9 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
             {
                 if (!palById.TryGetValue(definition.PalId, out var pal)) continue;
                 var map = MapCoordinates.ToMap(placement.Region, placement.WorldX, placement.WorldY, mapDefinitions.GetValueOrDefault(placement.Region));
+                var image = MapCoordinates.ToImage(placement.Region, placement.WorldX, placement.WorldY, mapDefinitions.GetValueOrDefault(placement.Region));
                 result.Add(new AtlasSpawn($"wild-{placement.Id}-{index}-{pal.Id}", pal.Id, pal.Name, placement.Region,
-                    "wild", placement.WorldX, placement.WorldY, map.X, map.Y, definition.Availability,
+                    "wild", placement.WorldX, placement.WorldY, map.X, map.Y, image.X, image.Y, definition.Availability,
                     definition.MinLevel, definition.MaxLevel, definition.Weight));
             }
         }
@@ -311,9 +312,10 @@ internal sealed class AtlasPublisher(PakWorkspace workspace)
                 (row.Key.Text.Contains("Tree", StringComparison.OrdinalIgnoreCase) || treeDefinition?.Contains(worldX, worldY) == true
                     ? MapRegion.Tree : MapRegion.Palpagos);
             var map = MapCoordinates.ToMap(region, worldX, worldY, mapDefinitions.GetValueOrDefault(region));
+            var image = MapCoordinates.ToImage(region, worldX, worldY, mapDefinitions.GetValueOrDefault(region));
             var level = reader.Int(0, "Level", "BossLevel", "Lv");
             result.Add(new AtlasSpawn($"alpha-{row.Key.Text}-{pal.Id}", pal.Id, pal.Name, region, "alpha",
-                worldX, worldY, map.X, map.Y, "both", level, level, 1));
+                worldX, worldY, map.X, map.Y, image.X, image.Y, "both", level, level, 1));
         }
         return result.DistinctBy(spawn => spawn.Id).ToList();
     }

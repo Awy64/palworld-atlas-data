@@ -64,6 +64,8 @@ public sealed record AtlasSpawn(
     double WorldY,
     double MapX,
     double MapY,
+    double ImageX,
+    double ImageY,
     string Availability,
     int MinLevel,
     int MaxLevel,
@@ -122,6 +124,11 @@ public static class MapCoordinates
     public static (double X, double Y) ToPalpagos(double worldX, double worldY) =>
         ((worldY - 158000d) / 459d, (worldX + 123888d) / 459d);
 
+    // Current T_WorldMap calibration. This is deliberately separate from the
+    // in-game coordinates returned by ToPalpagos and shown to players.
+    public static (double X, double Y) ToPalpagosImage(double worldX, double worldY) =>
+        ((worldY + 18d) / 725d, (worldX + 375247d) / 725d);
+
     public static bool IsWithinWorldExtent(
         double worldX, double worldY, double minX, double minY, double maxX, double maxY) =>
         worldX >= Math.Min(minX, maxX) && worldX <= Math.Max(minX, maxX) &&
@@ -129,4 +136,7 @@ public static class MapCoordinates
 
     internal static (double X, double Y) ToMap(MapRegion region, double worldX, double worldY, MapDefinition? definition) =>
         region == MapRegion.Palpagos ? ToPalpagos(worldX, worldY) : (worldY, worldX);
+
+    internal static (double X, double Y) ToImage(MapRegion region, double worldX, double worldY, MapDefinition? definition) =>
+        region == MapRegion.Palpagos ? ToPalpagosImage(worldX, worldY) : ToMap(region, worldX, worldY, definition);
 }

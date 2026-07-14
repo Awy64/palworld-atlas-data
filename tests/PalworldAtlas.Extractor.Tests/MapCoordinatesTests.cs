@@ -35,6 +35,17 @@ public sealed class MapCoordinatesTests
         Assert.Equal([-1000d, -1000d, 1000d, 1000d], MapCoordinates.PalpagosExtent);
     }
 
+    [Theory]
+    [InlineData(-315583.53125, 237116.96875, 327, 82)]
+    [InlineData(-167230, 96430, 133, 287)]
+    public void ConvertsServerCoordinatesToCurrentWorldMapImage(
+        double worldX, double worldY, double expectedX, double expectedY)
+    {
+        var result = MapCoordinates.ToPalpagosImage(worldX, worldY);
+        Assert.Equal(expectedX, Math.Round(result.X));
+        Assert.Equal(expectedY, Math.Round(result.Y));
+    }
+
     [Fact]
     public void DetectsWorldTreeCoordinatesFromServerMapBounds()
     {

@@ -12,7 +12,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "palId", "region", "kind", "worldX", "worldY", "mapX", "mapY", "availability", "minLevel", "maxLevel", "weight"],
+        "required": ["id", "palId", "region", "kind", "worldX", "worldY", "mapX", "mapY", "imageX", "imageY", "availability", "minLevel", "maxLevel", "weight"],
         "properties": {
           "id": { "type": "string" },
           "palId": { "type": "string" },
@@ -23,6 +23,8 @@
           "worldY": { "type": "number" },
           "mapX": { "type": "number" },
           "mapY": { "type": "number" },
+          "imageX": { "type": "number" },
+          "imageY": { "type": "number" },
           "availability": { "enum": ["day", "night", "both"] },
           "minLevel": { "type": "integer", "minimum": 0 },
           "maxLevel": { "type": "integer", "minimum": 0 },
@@ -32,4 +34,3 @@
     }
   }
 }
-
