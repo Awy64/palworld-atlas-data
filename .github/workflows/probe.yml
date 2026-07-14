@@ -1,4 +1,5 @@
 name: Probe Palworld server package
+# Manual production-readiness gate; it never publishes extracted content.
 
 on:
   workflow_dispatch:
@@ -70,4 +71,3 @@ jobs:
       - name: Enforce production gate
         if: steps.probe.outcome != 'success'
         run: exit 1
-

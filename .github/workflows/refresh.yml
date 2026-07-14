@@ -1,4 +1,5 @@
 name: Refresh Atlas data
+# Scheduled publication runs only after all server-table validations succeed.
 
 on:
   schedule:
@@ -124,4 +125,3 @@ jobs:
           body="Palworld build ${BUILD_ID:-unknown} did not pass the extraction or contract gate. The previous published build remains active. Inspect this workflow run before updating mappings or parser adapters."
           issue="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
           if [ -n "$issue" ]; then gh issue comment "$issue" --body "$body"; else gh issue create --title "$title" --body "$body"; fi
-
